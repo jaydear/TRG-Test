@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Reset Data.com demo records only.</description>
+    <displayType>link</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Quick Reset</masterLabel>
+    <openType>sidebar</openType>
+    <page>DemoQuickReset</page>
+    <protected>false</protected>
+</CustomPageWebLink>

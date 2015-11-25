@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Applicant</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Applicants</value>
+    </caseValues>
+    <fields>
+        <label><!-- Applicant Name --></label>
+        <name>Applicant_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Opening --></label>
+        <name>Job_Opening__c</name>
+        <relationshipLabel><!-- Applicants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo --></label>
+        <name>Photo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer --></label>
+        <name>Referrer__c</name>
+        <relationshipLabel><!-- Applicants --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Time of Interview --></label>
+        <name>Time_of_Interview__c</name>
+    </fields>
+    <fields>
+        <label><!-- phoneformat --></label>
+        <name>phoneformat__c</name>
+    </fields>
+    <fields>
+        <label><!-- photo url --></label>
+        <name>photo_url__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

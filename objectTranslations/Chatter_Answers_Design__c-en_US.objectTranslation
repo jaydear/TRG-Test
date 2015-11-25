@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Chatter Answers Design</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Chatter Answers Designs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Background Color --></label>
+        <name>Background_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buttons Color --></label>
+        <name>Buttons_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buttons Text Color --></label>
+        <name>Buttons_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments Background Color --></label>
+        <name>Comments_Background_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Highlight Color --></label>
+        <name>Criteria_Highlight_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria Highlight Text Color --></label>
+        <name>Criteria_Highlight_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Support Tag Text Color --></label>
+        <name>Customer_Support_Tag_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Left Content Text Color --></label>
+        <name>Left_Content_Text_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Links Color --></label>
+        <name>Links_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show More Background Color --></label>
+        <name>Show_More_Background_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Topics Highlight Color --></label>
+        <name>Topics_Highlight_Color__c</name>
+    </fields>
+    <fields>
+        <label><!-- Topics Highlight Text Color --></label>
+        <name>Topics_Highlight_Text_Color__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

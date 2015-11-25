@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CSAT --></label>
+        <name>CSAT__c</name>
+    </fields>
+    <fields>
+        <label>URL Questionnaire Satisfaction</label>
+        <name>Case_Survey_URL__c</name>
+    </fields>
+    <fields>
+        <label>Canal</label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label>Coût Estimé</label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label>Type de Client</label>
+        <name>Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>Entreprise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>Particulier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small and Medium Business</masterLabel>
+            <translation>PME/PMI</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- How the customer was feeling when he enter the support case. --></help>
+        <label>Sentiment Client</label>
+        <name>Customer_emoticon__c</name>
+    </fields>
+    <fields>
+        <label>Valeur Sentiment Client</label>
+        <name>Customer_emoticon_value__c</name>
+        <picklistValues>
+            <masterLabel>annoyed</masterLabel>
+            <translation>agacé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>confused</masterLabel>
+            <translation>confus</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>frustrated</masterLabel>
+            <translation>frustré</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>happy</masterLabel>
+            <translation>content</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used by the Perfect Date Wizard --></help>
+        <label>DB Durée de la requête (heures)</label>
+        <name>DB_Case_Duration_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used by the Perfect Date Wizard --></help>
+        <label><!-- DB Hours --></label>
+        <name>DB_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used by the Perfect Date Wizard --></help>
+        <label>Date/Heure Fermeture</label>
+        <name>DateTime_Closed_c__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used by the Perfect Date Wizard --></help>
+        <label>Date/Heure Ouverture</label>
+        <name>DateTime_Opened_c__c</name>
+    </fields>
+    <fields>
+        <label>Durée</label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Description --></label>
+        <name>EDY_ORGCUSTOM__Old_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Subject --></label>
+        <name>EDY_ORGCUSTOM__Old_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>Clôturé au Premier Contact</label>
+        <name>First_Contact_Close__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked when there is a KB Article attached to the Case. --></help>
+        <label>Article Attaché</label>
+        <name>KB_Article_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org Cust Case ID --></label>
+        <name>Org_Cust_Case_ID__c</name>
+    </fields>
+    <fields>
+        <name>Origin</name>
+        <picklistValues>
+            <masterLabel>Chat</masterLabel>
+            <translation><!-- Chat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>Communauté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation>Facebook</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation>Google</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram</masterLabel>
+            <translation><!-- Instagram --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn</masterLabel>
+            <translation><!-- LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Device</masterLabel>
+            <translation>Application Mobile</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Téléphone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q&amp;A</masterLabel>
+            <translation>Q&amp;A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation>Twitter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>Web</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Critique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Elevée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Basse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyenne</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Famille Produit</label>
+        <name>Product_Family_KB__c</name>
+        <picklistValues>
+            <masterLabel>Conferencing</masterLabel>
+            <translation>Visioconférence</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>Particulier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>Entreprise</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headphones</masterLabel>
+            <translation>Ecouteurs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Theatre</masterLabel>
+            <translation>Home Cinéma</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotspot Services</masterLabel>
+            <translation>Services Hotspot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projectors</masterLabel>
+            <translation>VidéoProjecteurs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speakers</masterLabel>
+            <translation>Enceintes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nom Produit</label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label>Score Qualité</label>
+        <name>Quality_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields>
+    <fields>
+        <name>Reason</name>
+        <picklistValues>
+            <masterLabel>Documentation Issue</masterLabel>
+            <translation>Problème de Documentation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing problem</masterLabel>
+            <translation>Problème Existant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Request</masterLabel>
+            <translation>Demande de Fonctionanlité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Issue</masterLabel>
+            <translation>Problème Matériel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail delivery issue</masterLabel>
+            <translation>Problème de livraison</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New problem</masterLabel>
+            <translation>Nouveau Problème</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem Resolved</masterLabel>
+            <translation>Problème Résolu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Issue</masterLabel>
+            <translation>Problème Logiciel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Temps de Réponse (mins)</label>
+        <name>Response_Time_mins__c</name>
+    </fields>
+    <fields>
+        <label>Conforme SLA</label>
+        <name>SLA_Compliant__c</name>
+    </fields>
+    <fields>
+        <label>Type SLA</label>
+        <name>SLA_Type__c</name>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Send Email Trigger --></label>
+        <name>Send_Email_Trigger__c</name>
+    </fields>
+    <fields>
+        <label>Type d&apos;Expédition</label>
+        <name>Shipping_Method__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedex</masterLabel>
+            <translation><!-- Fedex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Numéro de Suivi</label>
+        <name>Shipping_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SlickSidebar Tab Name --></label>
+        <name>SlickSidebar_Tab_Name__c</name>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Attention</masterLabel>
+            <translation><!-- Attention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cloturé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed in Community</masterLabel>
+            <translation>Cloturé dans la communauté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>Escaladé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>En attente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Received</masterLabel>
+            <translation>Réponse Reçue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Customer</masterLabel>
+            <translation>En attente du client</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>Attention</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation>En Cours</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Indicateur</label>
+        <name>Status_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Sous-Type</label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation>Facturation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation>Plainte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order or Invoice</masterLabel>
+            <translation>Commande ou Facture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profile</masterLabel>
+            <translation>Profil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup and Usage</masterLabel>
+            <translation>Configuration et Utilisation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suggestion</masterLabel>
+            <translation><!-- Suggestion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Troubleshooting</masterLabel>
+            <translation>Dépannage</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tracking ID --></label>
+        <name>Tracking_ID__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Account Support</masterLabel>
+            <translation>Support - Compte Client</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation>Général</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Support</masterLabel>
+            <translation>Support Produit</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Type de Support</label>
+        <name>Type_of_Support__c</name>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer emoticon --></label>
+        <name>UMCustomer_emoticon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer emoticon value --></label>
+        <name>UMCustomer_emoticon_value__c</name>
+        <picklistValues>
+            <masterLabel>awesome</masterLabel>
+            <translation>Très Content</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>happy</masterLabel>
+            <translation>Content</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>neutral</masterLabel>
+            <translation>Neutre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sad</masterLabel>
+            <translation>Mécontent</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Where the customer was when the case has been created --></help>
+        <label><!-- Customer Geolocalization --></label>
+        <name>UMgeolocalization__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <fields>
+        <label>Urgence</label>
+        <name>Urgency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>Volume__c</name>
+    </fields>
+    <fields>
+        <help><!-- Where the customer was when the case has been created --></help>
+        <label><!-- Customer Geolocalization --></label>
+        <name>pkbgeolocalization__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Chat Case --></label>
+        <name>Chat_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Support Compte Client</label>
+        <name>SimpleIssue</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Service Client Social</label>
+        <name>Social_Customer_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Support Technique</label>
+        <name>TechnicalIssueAdvanced</name>
+    </recordTypes>
+    <webLinks>
+        <label>Historique de la requête</label>
+        <name>Case_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Contact_Account --></label>
+        <name>Create_Contact_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Customer_Satisfaction_Survey --></label>
+        <name>Customer_Satisfaction_Survey</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Article --></label>
+        <name>Email_Article</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Solution --></label>
+        <name>Email_Solution</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Find_Solution --></label>
+        <name>Find_Solution</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Login_to_Self_Service --></label>
+        <name>Login_to_Self_Service</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UpSellCrossSellOpp --></label>
+        <name>UpSellCrossSellOpp</name>
+    </webLinks>
+</CustomObjectTranslation>

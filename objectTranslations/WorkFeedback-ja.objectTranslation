@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Last time this feedback was converted to string/int --></help>
+        <label>最終フィードバック日</label>
+        <name>FeedBackLastConvertDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if there was modification to feedback after last convert, within WorkCustomObject__c.FeedbackBufferSec__c seconds --></help>
+        <label>要変換</label>
+        <name>needConverting__c</name>
+    </fields>
+    <fields>
+        <help><!-- number value of the text --></help>
+        <label>数値</label>
+        <name>numericValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- String value of the feedback --></help>
+        <label>文字</label>
+        <name>stringValue__c</name>
+    </fields>
+</CustomObjectTranslation>

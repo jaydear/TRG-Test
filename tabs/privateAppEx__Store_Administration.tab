@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The Private AppExchange store administrative experience.</description>
+    <label>Store Administration</label>
+    <mobileReady>true</mobileReady>
+    <motif>Custom62: Chalkboard</motif>
+    <page>privateAppEx__dashboard</page>
+</CustomTab>

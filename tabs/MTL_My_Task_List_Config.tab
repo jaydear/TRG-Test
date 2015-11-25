@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Setup page for the My Task List package.</description>
+    <label>My Task List Config</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom19: Wrench</motif>
+    <page>MTL_My_Task_List_Config</page>
+</CustomTab>

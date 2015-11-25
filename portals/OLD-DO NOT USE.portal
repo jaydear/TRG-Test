@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Portal xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <description>Old portal, not for common use</description>
+    <emailSenderAddress>cchauhan@salesforce.com</emailSenderAddress>
+    <emailSenderName>portal@simple.com</emailSenderName>
+    <enableSelfCloseCase>true</enableSelfCloseCase>
+    <forgotPassTemplate>unfiled$public/CustomerPortalCustomerPortalResetPasswordSAMPLE</forgotPassTemplate>
+    <isSelfRegistrationActivated>false</isSelfRegistrationActivated>
+    <newPassTemplate>unfiled$public/CustomerPortalCustomerPortalResetPasswordSAMPLE</newPassTemplate>
+    <newUserTemplate>unfiled$public/CustomerPortalCustomerPortalNewUserLoginInformationSAMPLE</newUserTemplate>
+    <showActionConfirmation>true</showActionConfirmation>
+    <type>CustomerSuccess</type>
+</Portal>

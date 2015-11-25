@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Number of days since this question was posted. --></help>
+        <label>経過日数</label>
+        <name>Age_days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether there was an answer to this question, as indicated by selection of a best reply. --></help>
+        <label>回答済み</label>
+        <name>Answered__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time of the first response to this question. --></help>
+        <label>初回返答時間</label>
+        <name>First_Response_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of responses to this question. --></help>
+        <label>返答数</label>
+        <name>Response_Count_del__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount of time between first post and the best reply, as chosen. --></help>
+        <label>ベストアンサー時間</label>
+        <name>Time_to_Best_Reply__c</name>
+    </fields>
+    <fields>
+        <help><!-- Time elapsed since the question was first asked to the first response. --></help>
+        <label>初回返答時間</label>
+        <name>Time_to_First_Response__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- *Company-wide Ideas*: Question Record Type --></label>
+        <name>Record_type_for_community_09a3000000006wbAAA_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Community Ideas*: Question Record Type --></label>
+        <name>Record_type_for_community_09a3000000006zPAAQ_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Announcements: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1VAAU_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CRM Rollout: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1aAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Green Office Initiative - Reduce, Reuse, Recycle: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1fAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Product Idea: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1kAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Services Idea: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1pAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Sales Idea: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1qAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My IT Idea: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1uAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Foundation Idea: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1zAAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Marketing Idea: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004M24AAE_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Answers: Question Record Type --></label>
+        <name>Record_type_for_community_09a300000004uGeAAI_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- *Customers Answers Community*: Question Record Type --></label>
+        <name>Record_type_for_community_09a3000000050d1AAA_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Support Answers: Question Record Type --></label>
+        <name>Record_type_for_community_09a30000000L9iTAAS_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Video Conferencing: Question Record Type --></label>
+        <name>Record_type_for_community_09a30000000LApuAAG_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Wireless Solutions: Question Record Type --></label>
+        <name>Record_type_for_community_09a30000000LApzAAG_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Routers and Switches: Question Record Type --></label>
+        <name>Record_type_for_community_09a30000000LAq4AAG_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- customer community ideas: Question Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LBtOAAW_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- partner communities ideas: Question Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LBtTAAW_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MSS: Question Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LFBUAA4_entity_Question</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MSS 2: Question Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LFBZAA4_entity_Question</name>
+    </recordTypes>
+</CustomObjectTranslation>

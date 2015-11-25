@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ActiveLiveAgentUser --></label>
+        <name>ActiveLiveAgentUser__c</name>
+    </fields>
+    <fields>
+        <label>Aktivitetsindikator</label>
+        <name>Activity_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Aktivitetsindikator</label>
+        <name>Activity_Indicator_partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Certification Level --></label>
+        <name>Certification_Level__c</name>
+        <picklistValues>
+            <masterLabel>Architect</masterLabel>
+            <translation><!-- Architect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate</masterLabel>
+            <translation><!-- Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation><!-- Expert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional</masterLabel>
+            <translation><!-- Professional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Location --></label>
+        <name>Contact_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Since Last Activity --></label>
+        <name>Days_Since_Last_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Title --></label>
+        <name>EDY_ORGCUSTOM__Old_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FB Id for Identity --></label>
+        <name>FB_Id_for_Identity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Persona ID --></label>
+        <name>Facebook_Persona_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Picture --></label>
+        <name>Facebook_Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- JD Test Field --></label>
+        <name>JD_Test_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klout Score --></label>
+        <name>Klout_Score__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>Cold call</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation><!-- Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>Köpt lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation><!-- Inbound Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>Mässa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Säljsregistrering</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>Referens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Google Adwords</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation><!-- Website --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Denotes a Record that is part of the original dot. The data.com record resetter should not remove these records. --></help>
+        <label><!-- Never Reset --></label>
+        <name>Never_Reset__c</name>
+    </fields>
+    <fields>
+        <label>Noter</label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Friends --></label>
+        <name>Number_of_Friends__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Address in Google Maps --></label>
+        <name>Open_Address_in_Google_Maps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Level --></label>
+        <name>Profile_Level__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SSP User --></label>
+        <name>SSP_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Address --></label>
+        <name>SlickSidebar_AccountAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- SlickSidebar Tab Name --></label>
+        <name>SlickSidebar_Tab_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- for Activity Indicator field. &lt;5 = 1 Star, &lt;10 = 3 Stars, &gt;10 = 5 Stars --></help>
+        <label>Totalt antal aktiviteter</label>
+        <name>Total_of_Activities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Persona ID --></label>
+        <name>Twitter_Persona_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data.com Managed --></label>
+        <name>jsImpacts__Data_com_Managed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Exclude this record from automated field updates from Data.com Clean jobs --></help>
+        <label><!-- Data.com Does Not Auto-Update --></label>
+        <name>jsImpacts__Data_com_does_not_auto_update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added from Data.com --></label>
+        <name>jsImpacts__Imported_from_Jigsaw__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Campaign --></label>
+        <name>salesedgedemo__campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Comments --></label>
+        <name>salesedgedemo__comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Conversion Date --></label>
+        <name>salesedgedemo__conversion_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Cnvrsn Obj Nme --></label>
+        <name>salesedgedemo__conversion_object_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Cnvrsn Obj type --></label>
+        <name>salesedgedemo__conversion_object_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Created Date --></label>
+        <name>salesedgedemo__created_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Activity --></label>
+        <name>salesedgedemo__first_activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Referrer Query --></label>
+        <name>salesedgedemo__first_search_term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Referrer Type --></label>
+        <name>salesedgedemo__first_search_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Referrer --></label>
+        <name>salesedgedemo__first_touch_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Grade --></label>
+        <name>salesedgedemo__grade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Last Activity --></label>
+        <name>salesedgedemo__last_activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Notes --></label>
+        <name>salesedgedemo__notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Score --></label>
+        <name>salesedgedemo__score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot URL --></label>
+        <name>salesedgedemo__url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Campaign --></label>
+        <name>salesedgedemo__utm_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Content --></label>
+        <name>salesedgedemo__utm_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Medium --></label>
+        <name>salesedgedemo__utm_medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Source --></label>
+        <name>salesedgedemo__utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Term --></label>
+        <name>salesedgedemo__utm_term__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Partner --></label>
+        <name>Partner</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This record has been excluded from automated field updates from Data.com Clean jobs. --></errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Diagnose_Issue --></label>
+        <name>Diagnose_Issue</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DocuSign_NDA --></label>
+        <name>DocuSign_NDA</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Troubleshoot_Laptop --></label>
+        <name>Troubleshoot_Laptop</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- map --></label>
+        <name>map</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>salesedgedemo__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>salesedgedemo__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>salesedgedemo__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>salesedgedemo__Send_to_Prospect_Insight</name>
+    </webLinks>
+</CustomObjectTranslation>

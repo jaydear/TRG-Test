@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Swarm Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Swarm Rules</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- You will receive a Chatter message if you automatically follow a record. --></help>
+        <label><!-- Notify on Swarm? --></label>
+        <name>Notify_on_Swarm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Amount --></label>
+        <name>Opportunity_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>All Opportunities</masterLabel>
+            <translation><!-- All Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Opportunities above a certain amount</masterLabel>
+            <translation><!-- Only Opportunities above a certain amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Opportunities for Accounts I Own</masterLabel>
+            <translation><!-- Only Opportunities for Accounts I Own --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Opportunities of a certain Type</masterLabel>
+            <translation><!-- Only Opportunities of a certain Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Opportunities that reach a certain stage in the sales process</masterLabel>
+            <translation><!-- Only Opportunities that reach a certain stage in the sales process --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Opportunity Swarm Rules --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

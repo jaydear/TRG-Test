@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Asset Combo --></label>
+        <name>Asset_Combo__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label>Email du Client</label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label>Indicateur</label>
+        <name>Entitelemt_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Statut Autorisation</label>
+        <name>Entitlement_Status__c</name>
+        <picklistValues>
+            <masterLabel>30 Day Warning</masterLabel>
+            <translation>Rappel 30 Jours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expiré</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <name>ProductFamily</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>Produit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation>Installé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete</masterLabel>
+            <translation>Obsolète</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased</masterLabel>
+            <translation>Acheté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation>Enregistré</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation>Expédié</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Produits Suggérés</label>
+        <name>Suggested_Products__c</name>
+        <picklistValues>
+            <masterLabel>Product 1</masterLabel>
+            <translation>Produit 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 2</masterLabel>
+            <translation>Produit 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 3</masterLabel>
+            <translation>Produit 3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Services</masterLabel>
+            <translation>Services Technique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Services</masterLabel>
+            <translation>Services de Formation</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

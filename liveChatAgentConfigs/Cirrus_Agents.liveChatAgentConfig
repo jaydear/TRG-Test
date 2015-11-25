@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>admin</profile>
+        </profiles>
+        <users>
+            <user>bsupport.4hh3i422exb6@salesforce-sdo1.com</user>
+            <user>jdear@salesforce-sdo1.com</user>
+            <user>jsupport.6qhtauiga5fx@salesforce-sdo1.com</user>
+            <user>tservice.fxqb5f0g9yeg@salesforce-sdo1.com</user>
+        </users>
+    </assignments>
+    <autoGreeting>Hello, how can I help you today?</autoGreeting>
+    <enableAgentFileTransfer>true</enableAgentFileTransfer>
+    <enableAgentSneakPeek>true</enableAgentSneakPeek>
+    <enableAssistanceFlag>true</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>true</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransfer>true</enableChatTransfer>
+    <enableLogoutSound>true</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>true</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>true</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>Tier 1 Agents</label>
+</LiveChatAgentConfig>

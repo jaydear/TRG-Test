@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>商談経過日数</label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is used in an equation to generate a random number --></help>
+        <label>自動採番</label>
+        <name>AutoNumber__c</name>
+    </fields>
+    <fields>
+        <label>予算承認済み</label>
+        <name>Budget_Approved__c</name>
+    </fields>
+    <fields>
+        <label>ケース</label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Related Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>クローズカウントダウン</label>
+        <name>CloseDate_TODAY__c</name>
+    </fields>
+    <fields>
+        <label>コーチング</label>
+        <name>Coaching__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>競合情報</label>
+        <name>Competition__c</name>
+    </fields>
+    <fields>
+        <label>競合対策ガイド</label>
+        <name>Competitive_Coach__c</name>
+    </fields>
+    <fields>
+        <label>競合商談かどうか</label>
+        <name>Competitive_Deal__c</name>
+    </fields>
+    <fields>
+        <label>競合</label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation>会社A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation>会社B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation>会社C</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ROI分析完了</label>
+        <name>Complete_ROI_Analysis__c</name>
+    </fields>
+    <fields>
+        <label>市区郡</label>
+        <name>Contact_City__c</name>
+    </fields>
+    <fields>
+        <label>会社</label>
+        <name>Contact_Company__c</name>
+    </fields>
+    <fields>
+        <label>国</label>
+        <name>Contact_Country__c</name>
+    </fields>
+    <fields>
+        <label>メール</label>
+        <name>Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label>取引先責任者名</label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label>電話</label>
+        <name>Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label>郵便番号</label>
+        <name>Contact_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label>都道府県</label>
+        <name>Contact_State_Province__c</name>
+    </fields>
+    <fields>
+        <label>役職</label>
+        <name>Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label>取引条件</label>
+        <name>Contract_Terms__c</name>
+        <picklistValues>
+            <masterLabel>Non-Standard</masterLabel>
+            <translation>標準外</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>標準</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>作成日</label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label>DB金額（金額更新ツール用）</label>
+        <name>DB_Amount__c</name>
+    </fields>
+    <fields>
+        <label>DB Days（日付更新ツール用）</label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label>有効期限までの日数</label>
+        <name>Days_Left_Until_Expire__c</name>
+    </fields>
+    <fields>
+        <label>商談承認日</label>
+        <name>Deal_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Forward --></label>
+        <name>Deal_Forward__c</name>
+    </fields>
+    <fields>
+        <label>商談ID</label>
+        <name>Deal_ID__c</name>
+    </fields>
+    <fields>
+        <label>商談ソース</label>
+        <name>Deal_Source__c</name>
+    </fields>
+    <fields>
+        <label>決裁権</label>
+        <name>Decision_Role__c</name>
+    </fields>
+    <fields>
+        <label>デモ日</label>
+        <name>Demo_Presentation_Date__c</name>
+    </fields>
+    <fields>
+        <label>ディスカウント承認済み</label>
+        <name>Discount_Approved__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>未承認</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>承認済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ディスカウント率</label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label>代理店</label>
+        <name>Distributor__c</name>
+    </fields>
+    <fields>
+        <label>エンゲージレベル</label>
+        <name>Engage_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarded Lead ID --></label>
+        <name>Forwarded_Lead_ID__c</name>
+    </fields>
+    <fields>
+        <label>実装開始日</label>
+        <name>Implementation_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dependent on Age field.  Good = Age &lt; 30 Days.  Warning = Age &lt; 45 Days. Poor = Age &gt; 60 Days. --></help>
+        <label>経過日数フラグ</label>
+        <name>IndStatus__c</name>
+    </fields>
+    <fields>
+        <label>価格社内承認済み</label>
+        <name>Internal_Pricing_Approvals__c</name>
+    </fields>
+    <fields>
+        <label>初期クローズ予想日</label>
+        <name>Intial_Estimated_Close_Date__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>コールドコール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>コミュニティ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>購入リスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation>入電</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>展示会</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>商談登録</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>紹介</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Googleアドワーズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>ウェブサイト</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ロスト理由</label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>価格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Issue</masterLabel>
+            <translation>製品の問題</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation>顧客との関係</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>マージン</label>
+        <name>Margin__c</name>
+    </fields>
+    <fields>
+        <label>製品</label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC10001</masterLabel>
+            <translation><!-- GC10001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC20002</masterLabel>
+            <translation><!-- GC20002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC50000</masterLabel>
+            <translation><!-- GC50000 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>プロジェクト予算</label>
+        <name>Project_Budget__c</name>
+    </fields>
+    <fields>
+        <label>予算算出済み</label>
+        <name>Project_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクト詳細</label>
+        <name>Project_Description__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクトマネージャ</label>
+        <name>Project_Manager_Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>プロジェクト名</label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクト期間</label>
+        <name>Projected_Durations__c</name>
+    </fields>
+    <fields>
+        <label>プロジェクト終了日</label>
+        <name>Projected_Finish__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field tracks many times an Opportunity has been pushed from month to month --></help>
+        <label><!-- Push Counter --></label>
+        <name>Push_Counter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields>
+    <fields>
+        <label>ランダムな数値</label>
+        <name>Random_Number__c</name>
+    </fields>
+    <fields>
+        <label>ロスト理由</label>
+        <name>Reason_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>価格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Issues</masterLabel>
+            <translation>機能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation>会社の信頼性</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>登録期限日</label>
+        <name>Registration_Expiration__c</name>
+    </fields>
+    <fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation>ロスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation>受注</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Analysis</masterLabel>
+            <translation>ニーズの把握</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation</masterLabel>
+            <translation><!-- Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal/Quote</masterLabel>
+            <translation><!-- Proposal/Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation>受注可能性の確認</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>停滞商談</label>
+        <name>Stalled_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label>ステータス価格</label>
+        <name>Status_Value__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Add-On Business</masterLabel>
+            <translation>既存ビジネス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation>新規ビジネス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <fields>
+        <label>リード参照</label>
+        <name>View_Forwarded_Lead__c</name>
+    </fields>
+    <fields>
+        <label>優位競合</label>
+        <name>Winning_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation>競合A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation>競合B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation>競合C</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cv --></label>
+        <name>cv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added from Data.com --></label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields>
+    <recordTypes>
+        <label>アドバンス</label>
+        <name>Advanced</name>
+    </recordTypes>
+    <recordTypes>
+        <label>パートナー</label>
+        <name>IndirectPartner</name>
+    </recordTypes>
+    <recordTypes>
+        <label>シンプル</label>
+        <name>Simple</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- If the stage equals closed - lost, then the reason lost is a required field. --></errorMessage>
+        <name>Reason_Lost_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Financial_System_Integration --></label>
+        <name>Financial_System_Integration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Great_Plains_Integration --></label>
+        <name>Great_Plains_Integration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Coach --></label>
+        <name>Sales_Coach</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Methodology --></label>
+        <name>Sales_Methodology</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sign_with_DocuSign --></label>
+        <name>Sign_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

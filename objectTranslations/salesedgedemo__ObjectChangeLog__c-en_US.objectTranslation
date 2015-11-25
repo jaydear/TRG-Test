@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Object Email --></label>
+        <name>salesedgedemo__ObjectEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Fid --></label>
+        <name>salesedgedemo__ObjectFid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object State --></label>
+        <name>salesedgedemo__ObjectState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Type --></label>
+        <name>salesedgedemo__ObjectType__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>iPad App Maker</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>iPad Apps Maker</value>
+    </caseValues>
+    <fields>
+        <label><!-- Edit --></label>
+        <name>Edit__c</name>
+    </fields>
+    <fields>
+        <label><!-- app_icon --></label>
+        <name>app_icon__c</name>
+    </fields>
+    <fields>
+        <label><!-- content_1 --></label>
+        <name>content_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- content_2 --></label>
+        <name>content_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- content_3 --></label>
+        <name>content_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- content_4 --></label>
+        <name>content_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- content_5 --></label>
+        <name>content_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- content_bg_color --></label>
+        <name>content_bg_color__c</name>
+    </fields>
+    <fields>
+        <label><!-- hd_bg_color_end --></label>
+        <name>hd_bg_color_end__c</name>
+    </fields>
+    <fields>
+        <label><!-- hd_bg_color_start --></label>
+        <name>hd_bg_color_start__c</name>
+    </fields>
+    <fields>
+        <label><!-- hd_text_color --></label>
+        <name>hd_text_color__c</name>
+    </fields>
+    <fields>
+        <label><!-- logo_url --></label>
+        <name>logo_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_bg_color --></label>
+        <name>sidebar_bg_color__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_button_1 --></label>
+        <name>sidebar_button_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_button_2 --></label>
+        <name>sidebar_button_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_button_3 --></label>
+        <name>sidebar_button_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_button_4 --></label>
+        <name>sidebar_button_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_button_5 --></label>
+        <name>sidebar_button_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- sidebar_position --></label>
+        <name>sidebar_position__c</name>
+        <picklistValues>
+            <masterLabel>bottom</masterLabel>
+            <translation><!-- bottom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>left</masterLabel>
+            <translation><!-- left --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>right</masterLabel>
+            <translation><!-- right --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>top</masterLabel>
+            <translation><!-- top --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- sub_content_1 --></label>
+        <name>sub_content_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- sub_content_2 --></label>
+        <name>sub_content_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- sub_content_3 --></label>
+        <name>sub_content_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- sub_content_4 --></label>
+        <name>sub_content_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- sub_content_5 --></label>
+        <name>sub_content_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- youtube_enabled --></label>
+        <name>youtube_enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- youtube_height --></label>
+        <name>youtube_height__c</name>
+    </fields>
+    <fields>
+        <label><!-- youtube_left --></label>
+        <name>youtube_left__c</name>
+    </fields>
+    <fields>
+        <label><!-- youtube_tab_number --></label>
+        <name>youtube_tab_number__c</name>
+        <picklistValues>
+            <masterLabel>Tab #1</masterLabel>
+            <translation><!-- Tab #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tab #2</masterLabel>
+            <translation><!-- Tab #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tab #3</masterLabel>
+            <translation><!-- Tab #3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tab #4</masterLabel>
+            <translation><!-- Tab #4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tab #5</masterLabel>
+            <translation><!-- Tab #5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- youtube_top --></label>
+        <name>youtube_top__c</name>
+    </fields>
+    <fields>
+        <label><!-- youtube_url --></label>
+        <name>youtube_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- youtube_width --></label>
+        <name>youtube_width__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Go_to_the_App --></label>
+        <name>Go_to_the_App</name>
+    </webLinks>
+</CustomObjectTranslation>

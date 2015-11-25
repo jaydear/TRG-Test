@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scontrol xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contentSource>HTML</contentSource>
+    <description>Get relevant Account news at a glance with this Google News feed that sits as an inline S-Control on your Account screen.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Relevant Account News from Google News</name>
+    <supportsCaching>true</supportsCaching>
+</Scontrol>

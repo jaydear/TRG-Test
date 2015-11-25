@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Swarm Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case Swarm Rules</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Priority --></label>
+        <name>Case_Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Status --></label>
+        <name>Case_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Type --></label>
+        <name>Case_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- You will receive a Chatter message if you automatically follow a record. --></help>
+        <label><!-- Notify on Swarm? --></label>
+        <name>Notify_on_Swarm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>All Cases</masterLabel>
+            <translation><!-- All Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Cases for Accounts I Own</masterLabel>
+            <translation><!-- Only Cases for Accounts I Own --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Cases of a certain Type</masterLabel>
+            <translation><!-- Only Cases of a certain Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Cases with a certain Priority</masterLabel>
+            <translation><!-- Only Cases with a certain Priority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Cases with a certain Status</masterLabel>
+            <translation><!-- Only Cases with a certain Status --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Case Swarm Rules --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

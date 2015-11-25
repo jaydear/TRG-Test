@@ -1,0 +1,506 @@
+<apex:page standardController="Account" extensions="ddcS1contacts.ddc_ctr_account" cache="false">
+    <apex:includeScript value="{!URLFOR($Resource.ddcS1contacts__jquery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.ddcS1contacts__knockout)}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.ddcS1contacts__ddc_stylesheet, '/stylesheets/app.css')}"/>
+
+    <script>
+        var underscoreNamespace = '{!JSENCODE(underscoreNamespace)}';
+        var namespace = '{!JSENCODE(namespace)}';
+        ddc_ctr_account = {!IF(namespace != '', JSENCODE(namespace) + '.', '')}ddc_ctr_account;
+        
+        var contacts;
+        var numContacts;
+        var headerString;
+        var companyNames;
+        var isError;
+
+        function ContactListViewModel() {
+            var self = this;
+
+            self.contacts = numContacts > 0 ? ko.observableArray(JSON.parse(contacts)) : [];
+            self.selectedContacts = ko.observableArray();
+            self.numContacts = ko.observable(numContacts);
+            self.companyNames = companyNames;
+            self.headerString = ko.observable(headerString);
+            self.isError = ko.observable(isError);            
+            
+            self.filterFirstName = ko.observable('');
+            self.filterLastName = ko.observable('');
+            self.filterTitle = ko.observable('');
+            self.filterPostalCode = ko.observable('');
+            self.filterCompanyNames = ko.observableArray();
+            self.filterLevels = ko.observableArray();
+            self.filterDepartments = ko.observableArray();
+            
+            self.filterFirstNameSave = ko.observable('');
+            self.filterLastNameSave = ko.observable('');
+            self.filterTitleSave = ko.observable('');
+            self.filterPostalCodeSave = ko.observable('');
+            self.filterCompanyNamesSave = ko.observableArray();
+            self.filterLevelsSave = ko.observableArray();
+            self.filterDepartmentsSave = ko.observableArray();
+
+            self.orderBy = ko.observable('ASC');
+            self.offset = ko.observable(0);
+            self.pendingRequest = ko.observable(false);
+            
+            self.levels = {!$Label.ddc_data_levels};
+            self.departments = {!$Label.ddc_data_departments};
+            
+            self.numImported = ko.observable(0);
+            
+            self.importedMessage = ko.computed(function() {
+                var rtn = self.numImported() + ' ' + '{!$Label.ddc_label_contacts_imported}';
+                
+                if (self.numImported() == 1) {
+                    rtn = rtn.replace('contacts', 'contact');
+                }
+                
+                return rtn;
+            });
+            
+            self.isFilter = ko.observable(false);
+            self.initZeroResults = ko.observable(numContacts == 0);
+            
+            self.filterCount = function() {
+                var self = this;
+                var count = 0;
+                
+                if (self.filterFirstName().length > 0) {
+                    count++;
+                }
+                
+                if (self.filterLastName().length > 0) {
+                    count++;
+                }
+                
+                if (self.filterTitle().length > 0) {
+                    count++;
+                }
+                
+                if (self.filterPostalCode().length > 0) {
+                    count++;
+                }
+
+                if (self.filterCompanyNames().length > 0) {
+                    count++;
+                }
+                
+                if (self.filterLevels().length > 0) {
+                    count++;
+                }
+                
+                if (self.filterDepartments().length > 0) {
+                    count++;
+                }
+                
+                return count;
+            }
+            
+            self.scrolled = function(data, event) {                
+                var self = this;
+                var elem = event.target;
+
+                if (self.numContacts() == self.contacts().length) {
+                    return;
+                }
+                
+                if (!self.pendingRequest() && elem.scrollTop > (elem.scrollHeight - elem.offsetHeight - 75)) {
+                    self.pendingRequest(true);
+                    self.offset(self.offset() + 25);
+                    
+                    ddc_ctr_account.getContacts(self.offset(), self.orderBy(),
+                                                self.filterCompanyNames().length == 0 ? self.companyNames : self.filterCompanyNames(), 
+                                                self.filterFirstName(), self.filterLastName(), self.filterTitle(), 
+                                                self.filterPostalCode(), self.filterLevels(), self.filterDepartments(), 
+                                                function(result, event) {
+                        for (var i = 0; i < result.contacts.length; i++) {
+                            for (var j = 0; j < self.selectedContacts().length; j++) {
+                                if (self.selectedContacts()[j].dcContact.ExternalId == result.contacts[i].dcContact.ExternalId) {
+                                    result.contacts[i].isSelected = true;
+                                    break;
+                                }       
+                            }
+                            
+                            self.contacts.push(result.contacts[i]);
+                        }
+
+                        self.pendingRequest(false);
+                    }); 
+                }
+            }            
+            
+            self.filter = function() {
+                var self = this;
+                                                
+                self.contacts.removeAll();
+                
+                self.pendingRequest(true);
+                
+                ddc_ctr_account.getContacts(self.offset(), self.orderBy(), 
+                                            self.filterCompanyNames().length == 0 ? self.companyNames : self.filterCompanyNames(), 
+                                            self.filterFirstName(), self.filterLastName(), self.filterTitle(), 
+                                            self.filterPostalCode(), self.filterLevels(), self.filterDepartments(), 
+                                            function(result, event) {
+                    if (result.contacts.length == 0) {
+                        self.headerString(result.headerString.replace(/amp;/g, '&'));
+                        self.headerString(self.headerString().replace(/&&/g, '&'));
+                    } else {
+                        self.headerString(result.headerString.replace(/amp;/g, '&'));
+                        self.headerString(self.headerString().replace(/&&/g, '&'));
+                    }
+
+                    self.numContacts(result.numContacts);
+
+                    for (var i = 0; i < result.contacts.length; i++) {
+                        for (var j = 0; j < self.selectedContacts().length; j++) {
+                            if (self.selectedContacts()[j].dcContact.ExternalId == result.contacts[i].dcContact.ExternalId) {
+                                result.contacts[i].isSelected = true;
+                                break;
+                            }       
+                        }
+
+                        self.contacts.push(result.contacts[i]);
+                    }   
+
+                    self.pendingRequest(false);
+                });             
+            }
+            
+            self.swapSort = function() {
+                var self = this;
+
+                if (self.orderBy() == 'ASC') {
+                    self.orderBy('DESC');
+                } else {
+                    self.orderBy('ASC');
+                }
+
+                self.offset(0);
+                self.filter();
+            }
+            
+            self.swapFilter = function() {
+                var self = this;
+                
+                if (!self.isFilter()) {
+                    self.filterFirstNameSave(self.filterFirstName());
+                    self.filterLastNameSave(self.filterLastName());
+                    self.filterTitleSave(self.filterTitle());
+                    self.filterPostalCodeSave(self.filterPostalCode());
+                    self.filterCompanyNamesSave(self.filterCompanyNames());
+                    self.filterLevelsSave(self.filterLevels());
+                    self.filterDepartmentsSave(self.filterDepartments());                   
+                }
+
+                self.isFilter(!self.isFilter());
+            }
+
+            self.filterCancel = function() {
+                document.activeElement.blur();
+                var self = this;
+
+                self.filterFirstName(self.filterFirstNameSave());
+                self.filterLastName(self.filterLastNameSave());
+                self.filterTitle(self.filterTitleSave());
+                self.filterPostalCode(self.filterPostalCodeSave());
+                self.filterCompanyNames(self.filterCompanyNamesSave());
+                self.filterLevels(self.filterLevelsSave());
+                self.filterDepartments(self.filterDepartmentsSave());                   
+
+                self.isFilter(!self.isFilter());
+            }
+            
+            self.filterApply = function() {
+                document.activeElement.blur();
+                var self = this;
+
+                self.offset(0);
+                self.filter();
+                self.isFilter(!self.isFilter());
+            }
+            
+            self.location = function(city, state) {
+                if (typeof(state) == 'undefined') {
+                    return city;
+                } else {
+                    return city + ', ' + state;
+                }
+            }
+            
+            self.selectContact = function(contact) {
+                if (self.contacts()[self.contacts.indexOf(contact)].isSelected) {
+                    self.contacts()[self.contacts.indexOf(contact)].isSelected = false;
+                
+                    for (var j = 0; j < self.selectedContacts().length; j++) {
+                        if (self.selectedContacts()[j].dcContact.ExternalId == contact.dcContact.ExternalId) {
+                            self.selectedContacts.remove(self.selectedContacts()[j]);
+                            break;
+                        }       
+                    }
+                
+                
+                } else {
+                    if (self.selectedContacts().length == 25) {
+                        alert('{!$Label.ddc_label_filter_25_max}');
+                        return false;
+                    } 
+                
+                    self.contacts()[self.contacts.indexOf(contact)].isSelected = true;
+                    self.selectedContacts.push(contact);
+                }
+                
+                return true;
+            }
+            
+            self.purchaseContacts = function() {
+                var self = this;
+            
+                if (self.selectedContacts().length == 0) {
+                    alert('{!$Label.ddc_label_select_1}');
+                    return;
+                }
+
+                var confirmMessage = '{!$Label.ddc_label_import_start} ' + self.selectedContacts().length + ' {!$Label.ddc_label_import_end}';
+                
+                if (self.selectedContacts().length == 1) {
+                    confirmMessage += '?';
+                } else {
+                    confirmMessage += 's?';
+                }
+
+                if (!confirm(confirmMessage)) {
+                    return;
+                }
+
+                $('#spinner').show();
+
+                var numPurchased = 0, numFailed = 0;
+                var isSuccess = true;
+                var apiDown = false;
+                var purchasedContacts = [];
+
+                ko.utils.arrayForEach(self.selectedContacts(), function(contact) {
+                    ddc_ctr_account.purchaseContact(JSON.stringify(contact), function(result, error) {
+                        if (result && error.statusCode == 200) {
+                            purchasedContacts.push(contact);
+                            numPurchased++;
+                        } else if (!result && error.statusCode == 400) {
+                            var alertString = "{!$Label.ddc_error_api_down}";
+                            apiDown = true;
+                            alert(alertString);                             
+                        } else {
+                            isSuccess = false;
+                            numFailed++;
+                        }
+                    
+                        if (numPurchased + numFailed == self.selectedContacts().length && !apiDown) {
+                            ddc_ctr_account.importContacts(JSON.stringify(purchasedContacts), '{!accountId}', function(result, error) {
+                                if (isSuccess) {
+                                    self.selectedContacts.removeAll();
+                                    self.offset(0);
+                                    self.filter();
+                                    
+                                    self.numImported(numPurchased);
+
+                                        $('.growl').show();
+                                        $('#contactList').addClass('growl-active');                                     
+
+                                    setTimeout(function() {
+                                        $('#contactList').removeClass('growl-active');                                      
+                                        $('.growl').hide();
+                                    }, 5000);                                       
+                                } else {
+                                    var alertString = "{!$Label.ddc_label_too_many_start} " + self.selectedContacts().length + " {!$Label.ddc_label_too_many_end}";
+
+                                    if (self.selectedContacts().length > 1) {
+                                        alertString += 's.';
+                                    } else {
+                                        alertString += '.';
+                                    }                                       
+
+                                    alert(alertString);
+                                }
+                                
+                                $('#spinner').hide();
+                            });                         
+                        }
+                    });
+                });
+            }
+        }
+            
+        $(document).ready(function() {
+            $('#baseDiv, #filterDiv').hide();
+            $('.growl').hide();
+            
+            ddc_ctr_account.init('{!accountId}', function(result, event) {
+                contacts = JSON.stringify(result.contacts);
+                numContacts = result.numContacts;
+
+                headerString = result.headerString.replace(/amp;/g, '&');
+                headerString = headerString.replace(/&&/g, '&');
+                
+                companyNames = result.companyNames;
+                isError = result.isError;
+                
+                for (var i = 0; i < companyNames.length; i++) {
+                    companyNames[i] = companyNames[i].replace(/amp;/g, '&');
+                    companyNames[i] = companyNames[i].replace(/&&/g, '&');
+                }
+                                
+                ko.applyBindings(new ContactListViewModel());
+                
+                $('#spinner').hide();
+                $('#baseDiv').show();               
+            });
+        });     
+    </script>   
+    
+    <div class="flag--body db f-30 text-color-3" id="spinner">
+        <div class="tc pam" style="height: 60px">
+            <div class="icon-utility-spinner spinning" />
+        </div>
+    </div>
+    
+    <section data-bind="visible: !isFilter()" class="sg-phone--content scrollable bg-2 clear ng-scope" id="baseDiv">
+        <header class="border-bottom border--3 mc-header" >
+            <li class="flag flag--top active--list-1 pam db mw-100p clearfix">
+                <div class="flag--image prm fl">
+                    <img src="http://high-impact-prospecting.com/staging/work/wp-content/uploads/2014/01/datadotcom.jpg" width="30" height="30" alt="gt" class="brm mtxs" />
+                </div>
+                <div class="flag--body db">
+                    <span class="db text-color-1 f3 ng-binding"><span data-bind="visible: !isError()">Get Contacts</span></span>
+                    <span class="db text-color-2 f6 ng-binding mw-100p" data-bind="text: headerString, css: { mtxs: isError() }"></span>
+                </div>
+            </li>
+        </header>
+        
+        <div id="contactList">
+            <ul class="border-bottom border--3 fw-normal bg-1 man pan ng-isolate-scope" data-bind="foreach: contacts, event: { scroll: scrolled }">
+                <li class="flag flag--top active--list-1 pam border-bottom border--3" data-bind="css: { redundant: $data.isRedundant }">
+                    <div class="flag--checkbox prm">
+                        <input type="checkbox" class="checkbox checkbox--default checkbox--states-1 brm mrs bg-1 sq-22 a-mid dib" data-bind="click: $root.selectContact, checkedValue: $data.isSelected, checked: $data.isSelected"/>
+                    </div>
+                    <div class="flag--body">
+                        <span class="db text-color-1 f4 ng-binding mbs" data-bind="text: $data.dcContact.FirstName + ' ' + $data.dcContact.LastName"></span>
+                        <div class="w-100p" data-bind="visible: $data.dcContact.Department">
+                            <label class="fl text-truncate f6 text-color-2 size-1of3">{!$Label.ddc_label_filter_department}</label>
+                            <span class="fl text-truncate f6 text-color-2 size-2of3 fw-semibold" data-bind="text: $data.dcContact.Department"></span>
+                        </div>
+                        <div class="w-100p" data-bind="visible: $data.dcContact.City">
+                            <label class="fl text-truncate f6 text-color-2 size-1of3">{!$Label.ddc_label_location}</label>
+                            <span class="fl text-truncate f6 text-color-2 size-2of3 fw-semibold" data-bind="text: $root.location($data.dcContact.City, $data.dcContact.State)"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flag bg-1 border-bottom border--3 growl">
+              <div class="flag--image phm">
+                  <span class="text-error icon-utility-check text-success"></span>
+              </div>
+              <div class="flag--body">
+                  <div class="mvm fw-semibold text-color-1 f4 fw-bold">
+                      <span data-bind="text: importedMessage()"></span>
+                  </div>
+              </div>
+        </div>
+
+        <div class="fixed-spinner" data-bind="visible: pendingRequest()">
+           <div class="tc pam text-color-3 f-30">
+               <div class="icon-utility-spinner spinning text-color-3 f-22"></div>
+           </div>
+        </div>
+        
+        <header class="bg-1 ht-44 ng-isolate-scope fixed-bottom bot-t" role="group" data-bind="visible: !initZeroResults()">
+            <ul class="w-100p fl man pan list-horizontal ht-44 tc">
+                <li class="pos-rel fl ht-44 size-1of3">
+                    <a data-bind="click: swapSort" title="{!$Label.ddc_label_sort}" class="phm ht-44 pam">
+                        <span class="icon-utility-sort active--icon-1 text-color-3"></span>
+                        <span class="tha">{!$Label.ddc_label_sort}</span>
+                    </a>
+                </li>
+                <li class="pos-rel fl ht-44 size-1of3">
+                    <a id="filter-search" data-bind="click: swapFilter" title="{!$Label.ddc_label_filter}" class="phm ht-44 pam">
+                        <span class="icon-utility-filter active--icon-1 text-color-3" data-bind="css: { 'notifications item-count': filterCount() > 0 }, attr: { 'data-notification-count': filterCount() }"></span>
+                        <span class="tha">{!$Label.ddc_label_filter}</span>
+                    </a>
+                </li>
+                <li class="pos-rel fl ht-44 size-1of3">
+                    <a data-bind="click: purchaseContacts" title="{!$Label.ddc_label_download}" class="phm ht-44 pam">
+                        <span class="icon-utility-download active--icon-1 text-color-3"  data-bind="css: { 'notifications item-count': selectedContacts().length > 0 }, attr: { 'data-notification-count': selectedContacts().length }"></span>
+                        <span class="tha">{!$Label.ddc_label_download}</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+    </section>
+    
+    <section data-bind="visible: isFilter()" class="sg-phone--content bg-2 clear ng-scope" id="filterDiv">
+        <header class="bg-1 border-bottom border--2 filter-header tc" role="group" button-left="Cancel" button-right="Post" title="New Post">
+            <div data-bind="click: filterCancel" target="ifrm" title="Close" class="btn-header-secondary btn--header-secondary-active brm fl mts mls phm ht-30">
+                <span class="text-color-2 lh-30 fw-semibold f6 ng-binding">{!$Label.ddc_label_filter_cancel}</span>
+            </div>
+            <div id="apply-filter" data-bind="click: filterApply" title="Submit" class="btn-header-secondary btn--header-secondary-active brm ht-30 phm pos-rel fr mts mrs">
+                <span class="text-color-2 lh-30 fw-semibold f6 ng-binding">{!$Label.ddc_label_filter_apply}</span>
+            </div>
+            <b><span class="text-color-2 dib lh-44 fw-semibold f-19 ng-binding">{!$Label.ddc_label_filter}</span></b>
+        </header>
+
+        <section class="filter-pad ht-100p">
+            <form>
+                <label label="First Name" placeholder="" value="" class="ng-isolate-scope">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_first_name}</span>
+                    <div class="pos-rel">
+                        <div class="size-full text-color-3 label--lookup" data-bind="css: { 'icon-utility-close pos-abs': filterFirstName().length > 0 }, click: function() { filterFirstName(''); }"></div>
+                        <input type="text" name="default" data-bind="value: filterFirstName, valueUpdate: 'afterkeydown'" placeholder="" class="mbm size-full pam brm f4 no-border input--default input--ph-1 input--focus-1 prx" />
+                    </div>
+                </label>
+                <label label="Last Name" placeholder="" value="" class="ng-isolate-scope">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_name}</span>
+                    <div class="pos-rel">
+                        <div class="size-full text-color-3 label--lookup" data-bind="css: { 'icon-utility-close pos-abs': filterLastName().length > 0 }, click: function() { filterLastName(''); }"></div>
+                        <input type="text" name="default" data-bind="value: filterLastName, valueUpdate: 'afterkeydown'" placeholder="" class="mbm size-full pam brm f4 no-border input--default input--ph-1 input--focus-1 prx" />
+                    </div>
+                </label>
+                <label label="Title" placeholder="" value="" class="ng-isolate-scope">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_title}</span>
+                    <div class="pos-rel">
+                        <div class="size-full text-color-3 label--lookup" data-bind="css: { 'icon-utility-close pos-abs': filterTitle().length > 0 }, click: function() { filterTitle(''); }"></div>
+                        <input type="text" name="default" data-bind="value: filterTitle, valueUpdate: 'afterkeydown'" placeholder="" class="mbm size-full pam brm f4 no-border input--default input--ph-1 input--focus-1 prx" />
+                    </div>
+                </label>
+                <label label="Postal/Zip Code" placeholder="" value="" class="ng-isolate-scope">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_zip}</span>
+                    <div class="pos-rel">
+                        <div class="size-full text-color-3 label--lookup" data-bind="css: { 'icon-utility-close pos-abs': filterPostalCode().length > 0 }, click: function() { filterPostalCode(''); }"></div>
+                        <input type="text" name="default" data-bind="value: filterPostalCode, valueUpdate: 'afterkeydown'" placeholder="" class="mbm size-full pam brm f4 no-border input--default input--ph-1 input--focus-1 prx" />
+                    </div>
+                </label>
+                <label label="Company Name">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_company_name}</span>
+                    <div class="pos-rel">
+                        <span class="label--icon-r icon-utility-down size-full lh-14 text-color-3"></span>
+                        <select multiple="multiple" data-bind="options: companyNames, selectedOptions: filterCompanyNames" class="uiInput forceInputPicklist mbm" />
+                    </div>
+                </label>
+                <label label="Level">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_level}</span>
+                    <div class="pos-rel">
+                        <span class="label--icon-r icon-utility-down size-full lh-14 text-color-3"></span>
+                        <select multiple="multiple" data-bind="options: levels, selectedOptions: filterLevels" class="uiInput forceInputPicklist mbm" />
+                    </div>
+                </label>
+                <label label="Department">
+                    <span class="db mbs f5 text-color-2 ng-binding">{!$Label.ddc_label_filter_department}</span>
+                    <div class="pos-rel">
+                        <span class="label--icon-r icon-utility-down size-full lh-14 text-color-3"></span>
+                        <select multiple="multiple" data-bind="options: departments, selectedOptions: filterDepartments" class="uiInput forceInputPicklist mbm" />
+                    </div>
+                </label>
+            </form>
+        </section>
+    </section>        
+</apex:page>

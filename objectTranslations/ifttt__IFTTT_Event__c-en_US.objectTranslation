@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Message --></label>
+        <name>ifttt__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Object Id --></label>
+        <name>ifttt__Related_Object_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Object Type --></label>
+        <name>ifttt__Related_Object_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>ifttt__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

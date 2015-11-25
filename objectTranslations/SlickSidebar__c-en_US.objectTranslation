@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SlickSidebar Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SlickSidebar Configuration</value>
+    </caseValues>
+    <fields>
+        <help><!-- HEX colour code for the accordion arrows --></help>
+        <label><!-- Accordion Arrow Colour --></label>
+        <name>Accordion_Arrow_Colour__c</name>
+    </fields>
+    <fields>
+        <help><!-- HEX colour for mouse hover --></help>
+        <label><!-- Row Hover Colour --></label>
+        <name>Row_Hover_Colour__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Activity History --></label>
+        <name>Show_Activity_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Customer Summary --></label>
+        <name>Show_Customer_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Generic Related List 1 --></label>
+        <name>Show_Generic_Related_List_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Generic Related List 2 --></label>
+        <name>Show_Generic_Related_List_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Nearby Locations --></label>
+        <name>Show_Nearby_Locations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Related Cases --></label>
+        <name>Show_Related_Cases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Related Opportunities --></label>
+        <name>Show_Related_Opportunities__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

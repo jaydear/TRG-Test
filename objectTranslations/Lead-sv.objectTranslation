@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Accept Disclaimer --></label>
+        <name>Accept_Disclaimer__c</name>
+        <picklistValues>
+            <masterLabel>I have read and I agree</masterLabel>
+            <translation><!-- I have read and I agree --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Open Address in Google Maps --></label>
+        <name>Address_Mapped__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Archive Interest Level --></label>
+        <name>Archive_Interest_Level__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number Business Family Members --></label>
+        <name>Business_Family_Members_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>Competition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Deal --></label>
+        <name>Competitive_Deal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City --></label>
+        <name>Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Company --></label>
+        <name>Contact_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country --></label>
+        <name>Contact_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email --></label>
+        <name>Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Postal Code --></label>
+        <name>Contact_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State/Province --></label>
+        <name>Contact_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Title --></label>
+        <name>Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Converted Month --></label>
+        <name>Converted_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Copy End Cust Email --></label>
+        <name>Copy_End_Cust_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Month --></label>
+        <name>Create_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date without Time --></label>
+        <name>Created_Date_without_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data.com Lead --></label>
+        <name>Data_com_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Converted --></label>
+        <name>Date_Converted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Last Activity --></label>
+        <name>Date_of_Last_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Left Until Expiry --></label>
+        <name>Days_Left_Until_Expiry__c</name>
+    </fields>
+    <fields>
+        <label>Dagar sedan senaste aktivitet</label>
+        <name>Days_Since_Last_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Approved Date --></label>
+        <name>Deal_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Forward --></label>
+        <name>Deal_Forward__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal ID --></label>
+        <name>Deal_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Source --></label>
+        <name>Deal_Source__c</name>
+        <picklistValues>
+            <masterLabel>Existing Customer</masterLabel>
+            <translation><!-- Existing Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Decision Role --></label>
+        <name>Decision_Role__c</name>
+        <picklistValues>
+            <masterLabel>Decison Maker</masterLabel>
+            <translation><!-- Decison Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommender</masterLabel>
+            <translation><!-- Recommender --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tidsram för beslut</label>
+        <name>Decision_Timeframe__c</name>
+        <picklistValues>
+            <masterLabel>1-3 Months</masterLabel>
+            <translation><!-- 1-3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-6 Months</masterLabel>
+            <translation><!-- 3-6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-12 Months</masterLabel>
+            <translation><!-- 6-12 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immediately</masterLabel>
+            <translation><!-- Immediately --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Year</masterLabel>
+            <translation><!-- Next Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Decision Timeline --></label>
+        <name>Decision_Timeline__c</name>
+    </fields>
+    <fields>
+        <label><!-- D&amp;B Delinquency Risk --></label>
+        <name>Delinquency_Risk_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disqual/Archive Reason --></label>
+        <name>Disqual_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of Vision</masterLabel>
+            <translation><!-- Lack of Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never Reached</masterLabel>
+            <translation><!-- Never Reached --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget</masterLabel>
+            <translation><!-- No Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision</masterLabel>
+            <translation><!-- No Decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Power</masterLabel>
+            <translation><!-- No Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Information</masterLabel>
+            <translation><!-- Wrong Information --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>Distributor__c</name>
+        <picklistValues>
+            <masterLabel>CDW</masterLabel>
+            <translation><!-- CDW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingram Micro</masterLabel>
+            <translation><!-- Ingram Micro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Data</masterLabel>
+            <translation><!-- Tech Data --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email New Owner --></label>
+        <name>Email_New_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Close Date --></label>
+        <name>Estimated_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Persona ID --></label>
+        <name>Facebook_Persona_ID__c</name>
+    </fields>
+    <fields>
+        <label>Har budget</label>
+        <name>Has_Budget__c</name>
+    </fields>
+    <fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation><!-- Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation><!-- Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation><!-- Biotechnology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation><!-- Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation><!-- Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation><!-- Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation><!-- Food &amp; Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare &amp; Life Sciences</masterLabel>
+            <translation><!-- Healthcare &amp; Life Sciences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation><!-- Machinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation><!-- Not For Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation><!-- Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation><!-- Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation><!-- Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Beslutsfattare</label>
+        <name>Know_Decision_Maker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>Chinese</masterLabel>
+            <translation><!-- Chinese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation><!-- German --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation><!-- Japanese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation><!-- Portuguese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation><!-- Spanish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Modified (days) --></label>
+        <name>Last_Modified_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latitude --></label>
+        <name>Latitude__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>Cold call</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation><!-- Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>Köpt lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation><!-- Inbound Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>Mässa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Säljsregistrering</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>Referens</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Google Adwords</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation><!-- Website --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Age --></label>
+        <name>Lead_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Age (days) --></label>
+        <name>Lead_Age_days__c</name>
+    </fields>
+    <fields>
+        <label>Plats</label>
+        <name>Lead_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Number --></label>
+        <name>Lead_Number__c</name>
+    </fields>
+    <fields>
+        <label>Lead kvalitet</label>
+        <name>Lead_Quality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Rank --></label>
+        <name>Lead_Rank__c</name>
+    </fields>
+    <fields>
+        <label>Totala poäng</label>
+        <name>Lead_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Longitude --></label>
+        <name>Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- MSA --></label>
+        <name>MSA_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAICS Code --></label>
+        <name>NAICS_Code_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAICS Description --></label>
+        <name>NAICS_Description_Data__c</name>
+    </fields>
+    <fields>
+        <help><!-- Denotes a Record that is part of the original dot. The data.com record resetter should not remove these records. --></help>
+        <label><!-- Never Reset --></label>
+        <name>Never_Reset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Interest --></label>
+        <name>Product_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>Compliance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>Konsulttjänster</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Övrigt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products</masterLabel>
+            <translation>Produkter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>Tjänster</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation>Support</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC10001</masterLabel>
+            <translation><!-- GC10001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC20002</masterLabel>
+            <translation><!-- GC20002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC50000</masterLabel>
+            <translation><!-- GC50000 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Budget Amount --></label>
+        <name>Project_Budget_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Budgeted? --></label>
+        <name>Project_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label>Definerat projekt</label>
+        <name>Project_Defined__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields>
+    <fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cool</masterLabel>
+            <translation><!-- Cool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation>Central</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation>Öst</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation>Väst</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Expiration --></label>
+        <name>Registration_Expiration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Create Month --></label>
+        <name>Report_Create_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Convert Date --></label>
+        <name>Reported_Convert_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Converted --></label>
+        <name>Reported_Converted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Create Date --></label>
+        <name>Reported_Create_Month_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reseller Company Name --></label>
+        <name>Reseller_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reseller Email --></label>
+        <name>Reseller_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reseller First Name --></label>
+        <name>Reseller_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reseller Last Name --></label>
+        <name>Reseller_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reseller Phone --></label>
+        <name>Reseller_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Round Robin ID --></label>
+        <name>RoundRobin__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Code --></label>
+        <name>SIC_Code_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIC Description --></label>
+        <name>SIC_Description_Data__c</name>
+    </fields>
+    <fields>
+        <label>Beslutsfattare poäng</label>
+        <name>Score1__c</name>
+    </fields>
+    <fields>
+        <label>Tidsram för beslut</label>
+        <name>Score2__c</name>
+    </fields>
+    <fields>
+        <label>Definerat projekt poäng</label>
+        <name>Score3__c</name>
+    </fields>
+    <fields>
+        <label>Har budget poäng</label>
+        <name>Score4__c</name>
+    </fields>
+    <fields>
+        <label><!-- SlickSidebar Tab Name --></label>
+        <name>SlickSidebar_Tab_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archived</masterLabel>
+            <translation><!-- Archived --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified - Convert</masterLabel>
+            <translation><!-- Qualified - Convert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation><!-- Working --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ticker Symbol --></label>
+        <name>Ticker_Symbol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter Persona ID --></label>
+        <name>Twitter_Persona_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Guidelines --></label>
+        <name>View_Guidelines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added from Data.com --></label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields>
+    <fields>
+        <help><!-- Exclude this record from automated field updates from Data.com Clean jobs --></help>
+        <label><!-- Data.com Does Not Auto-Update --></label>
+        <name>jsImpacts__Data_com_do_not_auto_update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data.com Managed --></label>
+        <name>jsImpacts__Data_com_managed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added from Data.com DEPRECATED --></label>
+        <name>jsImpacts__Imported_from_Jigsaw__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Campaign --></label>
+        <name>salesedgedemo__campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Comments --></label>
+        <name>salesedgedemo__comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Conversion Date --></label>
+        <name>salesedgedemo__conversion_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Cnvrsn Objct Nme --></label>
+        <name>salesedgedemo__conversion_object_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Cnvrsn Obj Type --></label>
+        <name>salesedgedemo__conversion_object_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Created Date --></label>
+        <name>salesedgedemo__created_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Activity --></label>
+        <name>salesedgedemo__first_activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Referrer Query --></label>
+        <name>salesedgedemo__first_search_term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Referrer Type --></label>
+        <name>salesedgedemo__first_search_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot First Referrer --></label>
+        <name>salesedgedemo__first_touch_url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Grade --></label>
+        <name>salesedgedemo__grade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Last Activity --></label>
+        <name>salesedgedemo__last_activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Notes --></label>
+        <name>salesedgedemo__notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot Score --></label>
+        <name>salesedgedemo__score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Pardot URL --></label>
+        <name>salesedgedemo__url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Campaign --></label>
+        <name>salesedgedemo__utm_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Content --></label>
+        <name>salesedgedemo__utm_content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Medium --></label>
+        <name>salesedgedemo__utm_medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Source --></label>
+        <name>salesedgedemo__utm_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Edit Google Analytics Term --></label>
+        <name>salesedgedemo__utm_term__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Data.com --></label>
+        <name>Data_com</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deal Registration --></label>
+        <name>DealRegistration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lead --></label>
+        <name>Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pardot --></label>
+        <name>Pardot</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This record has been excluded from automated field updates from Data.com Clean jobs. --></errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- financialprofile --></label>
+        <name>financialprofile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- map --></label>
+        <name>map</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- news --></label>
+        <name>news</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>salesedgedemo__Send_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>salesedgedemo__Send_Pardot_Emails</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>salesedgedemo__Send_Single_Pardot_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>salesedgedemo__Send_to_Prospect_Insight</name>
+    </webLinks>
+</CustomObjectTranslation>

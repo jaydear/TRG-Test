@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <users>
+            <user>bsupport.4hh3i422exb6@salesforce-sdo1.com</user>
+            <user>jdear@salesforce-sdo1.com</user>
+            <user>jsupport.6qhtauiga5fx@salesforce-sdo1.com</user>
+            <user>lservice.8eofrp24dg18@salesforce-sdo1.com</user>
+            <user>oorder.o8szz8z7suwd@salesforce-sdo1.com</user>
+            <user>ssupport.cbfih34b7lym@salesforce-sdo1.com</user>
+            <user>tservice.fxqb5f0g9yeg@salesforce-sdo1.com</user>
+        </users>
+    </assignments>
+    <label>Technical Support</label>
+</Skill>

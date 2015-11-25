@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Goal$Name</field>
+    </columns>
+    <columns>
+        <field>Goal$Progress</field>
+    </columns>
+    <columns>
+        <field>Goal$Status</field>
+    </columns>
+    <columns>
+        <field>Goal$DueDate</field>
+    </columns>
+    <description>Work.com: This sample report displays all goals.</description>
+    <format>Tabular</format>
+    <name>All Goals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Goals_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Goal$CompletionDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Conférence</label>
+        <name>Attribute_1__c</name>
+        <picklistValues>
+            <masterLabel>Conference Room-in-a-Box</masterLabel>
+            <translation>Salle de Conférence</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projectors</masterLabel>
+            <translation>Vidéoprojecteurs</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Audio Portable</label>
+        <name>Attribute_2__c</name>
+        <picklistValues>
+            <masterLabel>Desktop Audio</masterLabel>
+            <translation>Audio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headphones</masterLabel>
+            <translation>Ecouteurs</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Audio Maison</label>
+        <name>Attribute_3__c</name>
+        <picklistValues>
+            <masterLabel>Home Theatre</masterLabel>
+            <translation>Home Cinéma</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Room Audio</masterLabel>
+            <translation>Audio Enceintes Sans-Fil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speakers</masterLabel>
+            <translation>Enceintes</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Couleur</label>
+        <name>Attribute_4__c</name>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation>Noir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gray</masterLabel>
+            <translation>Gris</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>Argent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation>Blanc</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Attribute_5__c</name>
+        <picklistValues>
+            <masterLabel>Installation Services</masterLabel>
+            <translation>Services d&apos;Installation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protection Plans</masterLabel>
+            <translation>Extensions de Garantie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Support</masterLabel>
+            <translation>Support Technique</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Détail</label>
+        <name>Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <name>Family</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>Produit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ID for Org Customizer --></label>
+        <name>ID_for_Org_Customizer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label>Détails Additionnels</label>
+        <name>Item_Additional_Details__c</name>
+    </fields>
+    <fields>
+        <label>Fonctionnalités</label>
+        <name>Item_Features__c</name>
+    </fields>
+    <fields>
+        <label>Grande Photo</label>
+        <name>Item_Image_Large__c</name>
+    </fields>
+    <fields>
+        <label>Photo</label>
+        <name>Item_Image__c</name>
+    </fields>
+    <fields>
+        <label>Description Longue</label>
+        <name>Item_Long_Description__c</name>
+    </fields>
+    <fields>
+        <label>MSRP</label>
+        <name>Item_MSRP__c</name>
+    </fields>
+    <fields>
+        <label>Description Courte</label>
+        <name>Item_Short_Description__c</name>
+    </fields>
+    <fields>
+        <label>Spécifications</label>
+        <name>Item_Specifications__c</name>
+    </fields>
+    <fields>
+        <label>Modèle</label>
+        <name>Model__c</name>
+    </fields>
+    <fields>
+        <label>Photo</label>
+        <name>ProductImageRelatedList__c</name>
+    </fields>
+    <fields>
+        <label>Groupe Produit</label>
+        <name>Product_Catalog__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Electronics</masterLabel>
+            <translation>Electronique Grand-Public</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic</masterLabel>
+            <translation>Générique</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Uses Product_Image_URL__c to reference the image stored in the Documents Tab. Image is 300px height by 512px width --></help>
+        <label>Photo</label>
+        <name>Product_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site.com ID --></label>
+        <name>Site_com_ID__c</name>
+    </fields>
+    <fields>
+        <label>Statut</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Revu en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published to Website</masterLabel>
+            <translation>Publié sur le Site Web</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- purl --></label>
+        <name>purl__c</name>
+    </fields>
+    <recordTypes>
+        <label>Catalogue de Produits</label>
+        <name>Catalog_Products</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Produits</label>
+        <name>Products</name>
+    </recordTypes>
+    <webLinks>
+        <label>Ajouter Image</label>
+        <name>Update_Image</name>
+    </webLinks>
+</CustomObjectTranslation>

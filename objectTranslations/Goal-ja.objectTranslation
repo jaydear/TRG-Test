@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- OrigGoalId --></label>
+        <name>OrigGoalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- isUserManager --></label>
+        <name>isUserManager__c</name>
+    </fields>
+</CustomObjectTranslation>

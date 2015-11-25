@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Reset individual records, delete added records from a particular date, choose other records to reset, set the values of the record reset, and lock records from being deleted from the demo reset.</description>
+    <displayType>link</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Advanced Reset</masterLabel>
+    <openType>sidebar</openType>
+    <page>DemoReset</page>
+    <protected>false</protected>
+</CustomPageWebLink>

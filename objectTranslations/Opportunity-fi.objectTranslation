@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is used in an equation to generate a random number --></help>
+        <label><!-- AutoNumber --></label>
+        <name>AutoNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Approved --></label>
+        <name>Budget_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Related Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closing Countdown --></label>
+        <name>CloseDate_TODAY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coaching --></label>
+        <name>Coaching__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>Competition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Coach --></label>
+        <name>Competitive_Coach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Deal --></label>
+        <name>Competitive_Deal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Complete ROI Analysis --></label>
+        <name>Complete_ROI_Analysis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City --></label>
+        <name>Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Company --></label>
+        <name>Contact_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country --></label>
+        <name>Contact_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email --></label>
+        <name>Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Phone --></label>
+        <name>Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Postal Code --></label>
+        <name>Contact_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State Province --></label>
+        <name>Contact_State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Title --></label>
+        <name>Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Terms --></label>
+        <name>Contract_Terms__c</name>
+        <picklistValues>
+            <masterLabel>Non-Standard</masterLabel>
+            <translation><!-- Non-Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Amount --></label>
+        <name>DB_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Left Until Expire --></label>
+        <name>Days_Left_Until_Expire__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Approved Date --></label>
+        <name>Deal_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Forward --></label>
+        <name>Deal_Forward__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal ID --></label>
+        <name>Deal_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Source --></label>
+        <name>Deal_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Role --></label>
+        <name>Decision_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Presentation Date --></label>
+        <name>Demo_Presentation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Approved --></label>
+        <name>Discount_Approved__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount % --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>Distributor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engage Legal --></label>
+        <name>Engage_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forwarded Lead ID --></label>
+        <name>Forwarded_Lead_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Start --></label>
+        <name>Implementation_Start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dependent on Age field.  Good = Age &lt; 30 Days.  Warning = Age &lt; 45 Days. Poor = Age &gt; 60 Days. --></help>
+        <label><!-- Age Indicator --></label>
+        <name>IndStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Pricing Approvals --></label>
+        <name>Internal_Pricing_Approvals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Estimated Close Date --></label>
+        <name>Intial_Estimated_Close_Date__c</name>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>Puhelu (cold call)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation><!-- Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>Ostettu lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation><!-- Inbound Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>Messut</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Diilin rekisteröinti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>Referenssi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Google Adwords</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation><!-- Website --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Loss Reason --></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Issue</masterLabel>
+            <translation><!-- Product Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Margin --></label>
+        <name>Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC10001</masterLabel>
+            <translation><!-- GC10001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC20002</masterLabel>
+            <translation><!-- GC20002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC50000</masterLabel>
+            <translation><!-- GC50000 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Budget --></label>
+        <name>Project_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Budgeted? --></label>
+        <name>Project_Budgeted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Manager Contact --></label>
+        <name>Project_Manager_Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected Durations --></label>
+        <name>Projected_Durations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected Finish --></label>
+        <name>Projected_Finish__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field tracks many times an Opportunity has been pushed from month to month --></help>
+        <label><!-- Push Counter --></label>
+        <name>Push_Counter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields>
+    <fields>
+        <label><!-- Random Number --></label>
+        <name>Random_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Lost --></label>
+        <name>Reason_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Issues</masterLabel>
+            <translation><!-- Product Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Expiration --></label>
+        <name>Registration_Expiration__c</name>
+    </fields>
+    <fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation>Suljettu - hävitty</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation>Suljettu - voitto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Analysis</masterLabel>
+            <translation>Tarveanalyysi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation</masterLabel>
+            <translation><!-- Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal/Quote</masterLabel>
+            <translation><!-- Proposal/Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation>Kvalifiointi</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stalled Opportunity --></label>
+        <name>Stalled_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Value --></label>
+        <name>Status_Value__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Add-On Business</masterLabel>
+            <translation>Lisämyynti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation>Uusasiakasmyynti</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>Palvelut</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <fields>
+        <label><!-- View Forwarded Lead --></label>
+        <name>View_Forwarded_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Winning Competitor --></label>
+        <name>Winning_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation>Kilpailija A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation>Kilpailija B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation>Kilpailija C</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- cv --></label>
+        <name>cv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Added from Data.com --></label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Advanced --></label>
+        <name>Advanced</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Indirect (Partner) --></label>
+        <name>IndirectPartner</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Simple --></label>
+        <name>Simple</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- If the stage equals closed - lost, then the reason lost is a required field. --></errorMessage>
+        <name>Reason_Lost_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Financial_System_Integration --></label>
+        <name>Financial_System_Integration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Great_Plains_Integration --></label>
+        <name>Great_Plains_Integration</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Coach --></label>
+        <name>Sales_Coach</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Methodology --></label>
+        <name>Sales_Methodology</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sign_with_DocuSign --></label>
+        <name>Sign_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

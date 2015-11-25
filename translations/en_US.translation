@@ -1,0 +1,2319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- FieldCreatorBG --></label>
+        <name>FieldCreatorBG</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldCreatorBaseUrl --></label>
+        <name>FieldCreatorBaseUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldCreatorURL --></label>
+        <name>FieldCreatorCSS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldCreatorJSP --></label>
+        <name>FieldCreatorJSP</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GApiKey --></label>
+        <name>GApiKey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- KnowledgeBase URL --></label>
+        <name>KnowledgeBase_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Question --></label>
+        <name>LABS_SF_AddQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Anonymous --></label>
+        <name>LABS_SF_Anonymous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Answer as --></label>
+        <name>LABS_SF_Answer_as</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>LABS_SF_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chatter --></label>
+        <name>LABS_SF_Chatter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chatter Link --></label>
+        <name>LABS_SF_Chatter_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Community --></label>
+        <name>LABS_SF_Community</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Contact with Case --></label>
+        <name>LABS_SF_ContactWithCase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Current Surveys --></label>
+        <name>LABS_SF_CurrentSurveys</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>LABS_SF_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Are you sure you want to delete this survey? --></label>
+        <name>LABS_SF_Delete_Confirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit --></label>
+        <name>LABS_SF_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Link, Anonymous --></label>
+        <name>LABS_SF_Email_Link_Anonymous</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Link w/ Contact &amp; Case Merge --></label>
+        <name>LABS_SF_Email_Link_w_Contact_Case_Merge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Link w/ Contact Merge --></label>
+        <name>LABS_SF_Email_Link_w_Contact_Merge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter Survey Name --></label>
+        <name>LABS_SF_EnterSurveyName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- For external facing surveys, please create a site first.  You may still create i --></label>
+        <name>LABS_SF_External_Please_Create_Site</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- For community assistance with Survey Force --></label>
+        <name>LABS_SF_For_community_assistance_with_Survey_Force</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Help --></label>
+        <name>LABS_SF_Getting_Help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Header and Thank You --></label>
+        <name>LABS_SF_HeaderAndThankYou</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Installation Guide --></label>
+        <name>LABS_SF_Installation_Guide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Internal --></label>
+        <name>LABS_SF_Internal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Just Contact --></label>
+        <name>LABS_SF_JustContact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Learn More --></label>
+        <name>LABS_SF_Learn_More</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Make A New Survey --></label>
+        <name>LABS_SF_MakeANewSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Make New Survey --></label>
+        <name>LABS_SF_MakeNewSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Make a Sample Survey --></label>
+        <name>LABS_SF_Make_a_Sample_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next Steps --></label>
+        <name>LABS_SF_Next_Steps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please enter the list --></label>
+        <name>LABS_SF_PleaseEnterTheList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Question --></label>
+        <name>LABS_SF_Question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required --></label>
+        <name>LABS_SF_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required Question --></label>
+        <name>LABS_SF_RequiredQuestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resources --></label>
+        <name>LABS_SF_Resources</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Results --></label>
+        <name>LABS_SF_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SELECT SITE --></label>
+        <name>LABS_SF_SELECTSITE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- - - SELECT- -  --></label>
+        <name>LABS_SF_SELECTTYPE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Salesforce Answers --></label>
+        <name>LABS_SF_Salesforce_Answers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>LABS_SF_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Order --></label>
+        <name>LABS_SF_SaveOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Question Type --></label>
+        <name>LABS_SF_SelectQuestionType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Site to display Survey --></label>
+        <name>LABS_SF_SelectSitetodisplaySurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share --></label>
+        <name>LABS_SF_Share</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share My Survey --></label>
+        <name>LABS_SF_Share_My_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sharing Options --></label>
+        <name>LABS_SF_Sharing_Options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Submit Survey --></label>
+        <name>LABS_SF_SubmitSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SurveyForceIsOpenSource --></label>
+        <name>LABS_SF_SurveyForceIsOpenSource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey URL Link --></label>
+        <name>LABS_SF_SurveyURLLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Force is unsupported --></label>
+        <name>LABS_SF_Survey_Force_is_unsupported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Force on Github --></label>
+        <name>LABS_SF_Survey_Force_on_Github</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Name Is Required --></label>
+        <name>LABS_SF_Survey_Name_Is_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Survey Site Is Required --></label>
+        <name>LABS_SF_Survey_Site_Is_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Your survey has been submitted. Thank you for taking our survey. --></label>
+        <name>LABS_SF_Survey_Submitted_Thank_you</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To submit ideas or issues --></label>
+        <name>LABS_SF_To_submit_ideas_or_issues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Guide --></label>
+        <name>LABS_SF_User_Guide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Results In New Window --></label>
+        <name>LABS_SF_View_Results_In_New_Window</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Sample Survey --></label>
+        <name>LABS_SF_View_Sample_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome to Survey Force --></label>
+        <name>LABS_SF_Welcome_to_Survey_Force</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 1. Create a sample survey by clicking the button below. --></label>
+        <name>LABS_SF_X1_Create_a_sample_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 2. Set up a site if you would like to have external-facing surveys. --></label>
+        <name>LABS_SF_X2_External_Setup_Site</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 3. Start creating your first survey. --></label>
+        <name>LABS_SF_X3_Start_creating_your_first_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You have already taken this survey! --></label>
+        <name>LABS_SF_You_have_already_taken_this_survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Your next few steps are easy. --></label>
+        <name>LABS_SF_Your_next_few_steps_are_easy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- please visit --></label>
+        <name>LABS_SF_please_visit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Article Type configuration --></label>
+        <name>PKB2M_aTypeConfig</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please fill out these fields: --></label>
+        <name>PKB2M_about_you</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Knowledge Article type selected already exist. --></label>
+        <name>PKB2M_alreadyExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available KAs --></label>
+        <name>PKB2M_availableKas</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Click &quot;Add Knowledge Article&quot; to add items. --></label>
+        <name>PKB2M_clickToAddMoreItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: Add Knowledge Article --></label>
+        <name>PKB2M_config_add_kav</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Critical error --></label>
+        <name>PKB2M_config_critical_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: cti pause --></label>
+        <name>PKB2M_config_cti_pause</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: cti wait --></label>
+        <name>PKB2M_config_cti_wait</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: Current Knowledge Article --></label>
+        <name>PKB2M_config_current_kav</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: Data Categories --></label>
+        <name>PKB2M_config_data_categories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: general setup --></label>
+        <name>PKB2M_config_general_setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M : live agent --></label>
+        <name>PKB2M_config_live_agent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2M: phone calls --></label>
+        <name>PKB2M_config_phone_call</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Uploading the selected file --></label>
+        <name>PKB2M_fileUploadProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- I am --></label>
+        <name>PKB2M_i_am</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2 outside business hours --></label>
+        <name>PKB2M_out_of_business_hours</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You must select at least one field. --></label>
+        <name>PKB2M_selectAtLeastOneField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected fields --></label>
+        <name>PKB2M_selectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Selected KA fields --></label>
+        <name>PKB2M_selectedKaFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You have selected to many values, please remove some of them. --></label>
+        <name>PKB2M_toManyValues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Are you sure? --></label>
+        <name>PKB2M_uSure</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: All Fields Required --></label>
+        <name>PKB2_All_Fields_Required</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Answers Might Help --></label>
+        <name>PKB2_Answers_Might_Help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Ask Button --></label>
+        <name>PKB2_Ask_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Back To Results --></label>
+        <name>PKB2_Back_To_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Back To Search Page --></label>
+        <name>PKB2_Back_To_Search_Page</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Call Now --></label>
+        <name>PKB2_CallNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Call --></label>
+        <name>PKB2_Call_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Cancel --></label>
+        <name>PKB2_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Case Error Admin Notification --></label>
+        <name>PKB2_Case_Error_Admin_Notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Case Submit Error --></label>
+        <name>PKB2_Case_Submit_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Category Group Label 1 --></label>
+        <name>PKB2_Category_Group_Label_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Category Group Label 2 --></label>
+        <name>PKB2_Category_Group_Label_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Category Group Label 3 --></label>
+        <name>PKB2_Category_Group_Label_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Category Group Label 1 --></label>
+        <name>PKB2_Category_MGroup_Label_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Category Group Label 2 --></label>
+        <name>PKB2_Category_MGroup_Label_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Category Group Label 3 --></label>
+        <name>PKB2_Category_MGroup_Label_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chat Now --></label>
+        <name>PKB2_ChatNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Offline --></label>
+        <name>PKB2_ChatOff</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chat --></label>
+        <name>PKB2_Chat_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pkb2 : Chat online --></label>
+        <name>PKB2_Chat_Online</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2 Close --></label>
+        <name>PKB2_Close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2 Close Window --></label>
+        <name>PKB2_Close_Window</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Complete Request --></label>
+        <name>PKB2_Complete_Request</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Contact Us --></label>
+        <name>PKB2_Contact_Us</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Contact Us Link Prompt --></label>
+        <name>PKB2_Contact_Us_Link_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Contact Us Prompt --></label>
+        <name>PKB2_Contact_Us_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Create Settings --></label>
+        <name>PKB2_Create_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Done --></label>
+        <name>PKB2_Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Email --></label>
+        <name>PKB2_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Email Article --></label>
+        <name>PKB2_Email_Article</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Email Invalid --></label>
+        <name>PKB2_Email_Invalid</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Error Admin Notification Email --></label>
+        <name>PKB2_Error_Admin_Notification_Email</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Featured Articles --></label>
+        <name>PKB2_Featured_Articles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Feedback --></label>
+        <name>PKB2_Feedback</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Feedback Appreciated --></label>
+        <name>PKB2_Feedback_Appreciated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Feedback Characters Remaining --></label>
+        <name>PKB2_Feedback_Characters_Remaining</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Filter Options --></label>
+        <name>PKB2_Filter_Options</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filters --></label>
+        <name>PKB2_Filters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: First Name --></label>
+        <name>PKB2_First_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: We will get back at you soon --></label>
+        <name>PKB2_Get_Back_Soon</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Help us, help you. --></label>
+        <name>PKB2_HelpUs_HelpYou</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Languages --></label>
+        <name>PKB2_Languages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Last Name --></label>
+        <name>PKB2_Last_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: More Useful --></label>
+        <name>PKB2_More_Useful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2:  Name --></label>
+        <name>PKB2_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Narrow Search --></label>
+        <name>PKB2_Narrow_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Next Link --></label>
+        <name>PKB2_Next_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: No --></label>
+        <name>PKB2_No</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: No Filter --></label>
+        <name>PKB2_No_Filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: No Found Answer --></label>
+        <name>PKB2_No_Found_Answer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: No Results --></label>
+        <name>PKB2_No_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: No Settings Yet --></label>
+        <name>PKB2_No_Settings_Yet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: None --></label>
+        <name>PKB2_None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Popular Articles --></label>
+        <name>PKB2_Popular_Articles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Previous Link --></label>
+        <name>PKB2_Previous_Link</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Printable View --></label>
+        <name>PKB2_Printable_View</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Recommended --></label>
+        <name>PKB2_Recommended</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Related Articles --></label>
+        <name>PKB2_Related_Articles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Request Submitted --></label>
+        <name>PKB2_Request_Submitted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Request Type --></label>
+        <name>PKB2_Request_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Reset Search --></label>
+        <name>PKB2_Reset_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Search Button --></label>
+        <name>PKB2_Search_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Search Invalid Characters --></label>
+        <name>PKB2_Search_Invalid_Characters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Search Prompt --></label>
+        <name>PKB2_Search_Prompt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Search Results --></label>
+        <name>PKB2_Search_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Select Settings --></label>
+        <name>PKB2_Select_Settings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Send Button --></label>
+        <name>PKB2_Send_Button</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Still Have Question --></label>
+        <name>PKB2_Still_Have_Question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Submit --></label>
+        <name>PKB2_Submit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Subscribe Article Feed --></label>
+        <name>PKB2_Subscribe_Article_Feed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Subscribe Feed Results --></label>
+        <name>PKB2_Subscribe_Feed_Results</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Thanks For Feedback --></label>
+        <name>PKB2_Thanks_For_Feedback</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2:Contact Us  Topic --></label>
+        <name>PKB2_Topic</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Tweet This --></label>
+        <name>PKB2_Tweet_This</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Value Must Match Name --></label>
+        <name>PKB2_Value_Must_Match_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Was Helpful --></label>
+        <name>PKB2_Was_Helpful</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Within Category --></label>
+        <name>PKB2_Within_Category</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Yes --></label>
+        <name>PKB2_Yes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Yes Submit Question --></label>
+        <name>PKB2_Yes_Submit_Question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: You Searched For --></label>
+        <name>PKB2_You_Searched_For</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: find Helpful and you --></label>
+        <name>PKB2_find_Helpful_and_you</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Contact Us Help Please --></label>
+        <name>PKB2_help_please</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Call Us --></label>
+        <name>PKB2_help_please_call</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chat --></label>
+        <name>PKB2_help_please_liveAgent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Contact Us placeholder --></label>
+        <name>PKB2_how_can_we_help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS cannot read File --></label>
+        <name>PKB2_js_cannot_read_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS error --></label>
+        <name>PKB2_js_error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS error access denied --></label>
+        <name>PKB2_js_error_access_denied</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS error position unavailable --></label>
+        <name>PKB2_js_error_position_unavailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS error question empty --></label>
+        <name>PKB2_js_error_question_empty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS error question length --></label>
+        <name>PKB2_js_error_question_length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS geolocation not supported --></label>
+        <name>PKB2_js_geolocation_not_supported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS issues uploading  File --></label>
+        <name>PKB2_js_issues_uploading_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS only NNN  files --></label>
+        <name>PKB2_js_only_n_files_supported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS search string empty --></label>
+        <name>PKB2_js_search_string_empty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS search string length --></label>
+        <name>PKB2_js_search_string_length</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS select File --></label>
+        <name>PKB2_js_select_file</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: JS topic empty --></label>
+        <name>PKB2_js_topic_empty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month April --></label>
+        <name>PKB2_month_april</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month August --></label>
+        <name>PKB2_month_august</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month December --></label>
+        <name>PKB2_month_december</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month February --></label>
+        <name>PKB2_month_february</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month January --></label>
+        <name>PKB2_month_january</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month July --></label>
+        <name>PKB2_month_july</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month June --></label>
+        <name>PKB2_month_june</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month March --></label>
+        <name>PKB2_month_march</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month May --></label>
+        <name>PKB2_month_may</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month November --></label>
+        <name>PKB2_month_november</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month October --></label>
+        <name>PKB2_month_october</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Month September --></label>
+        <name>PKB2_month_september</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2 : no live agents available --></label>
+        <name>PKB2_no_availanble_liveAgent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2_search_to_long --></label>
+        <name>PKB2_search_to_long</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Contact Us Send Email --></label>
+        <name>PKB2_send_mail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2_sugFour --></label>
+        <name>PKB2_sugFour</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2_sugOne --></label>
+        <name>PKB2_sugOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2_sugThree --></label>
+        <name>PKB2_sugThree</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2_sugTwo --></label>
+        <name>PKB2_sugTwo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2_suggestions --></label>
+        <name>PKB2_suggestions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tell it like it is. --></label>
+        <name>PKB2_tellitlikeitis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Today --></label>
+        <name>PKB2_today</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PKB2: Yesterday --></label>
+        <name>PKB2_yesterday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SDO Version --></label>
+        <name>SDO_Version</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sites Google Key --></label>
+        <name>Sites_Google_Key</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SpaceID --></label>
+        <name>SpaceID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Articles --></label>
+        <name>cam_articles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Load more --></label>
+        <name>cam_loadMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Q&amp;A --></label>
+        <name>cam_questions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- See All --></label>
+        <name>cam_seeAllLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- See more --></label>
+        <name>cam_seeMore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a XXXXX --></label>
+        <name>cam_selectZone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sign In today --></label>
+        <name>cam_signInLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Sign up today --></label>
+        <name>cam_signUpLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_data_departments --></label>
+        <name>ddcS1contacts__ddc_data_departments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_data_levels --></label>
+        <name>ddcS1contacts__ddc_data_levels</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_error_api_down --></label>
+        <name>ddcS1contacts__ddc_error_api_down</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_error_no_account --></label>
+        <name>ddcS1contacts__ddc_error_no_account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_error_no_license --></label>
+        <name>ddcS1contacts__ddc_error_no_license</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_header --></label>
+        <name>ddcS1contacts__ddc_header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_contacts_imported --></label>
+        <name>ddcS1contacts__ddc_label_contacts_imported</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_download --></label>
+        <name>ddcS1contacts__ddc_label_download</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter --></label>
+        <name>ddcS1contacts__ddc_label_filter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_25_max --></label>
+        <name>ddcS1contacts__ddc_label_filter_25_max</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_apply --></label>
+        <name>ddcS1contacts__ddc_label_filter_apply</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_cancel --></label>
+        <name>ddcS1contacts__ddc_label_filter_cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_company_name --></label>
+        <name>ddcS1contacts__ddc_label_filter_company_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_department --></label>
+        <name>ddcS1contacts__ddc_label_filter_department</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_first_name --></label>
+        <name>ddcS1contacts__ddc_label_filter_first_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_level --></label>
+        <name>ddcS1contacts__ddc_label_filter_level</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_name --></label>
+        <name>ddcS1contacts__ddc_label_filter_name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_title --></label>
+        <name>ddcS1contacts__ddc_label_filter_title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_filter_zip --></label>
+        <name>ddcS1contacts__ddc_label_filter_zip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_import_end --></label>
+        <name>ddcS1contacts__ddc_label_import_end</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_import_start --></label>
+        <name>ddcS1contacts__ddc_label_import_start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_location --></label>
+        <name>ddcS1contacts__ddc_label_location</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_select_1 --></label>
+        <name>ddcS1contacts__ddc_label_select_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_sort --></label>
+        <name>ddcS1contacts__ddc_label_sort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_too_many_end --></label>
+        <name>ddcS1contacts__ddc_label_too_many_end</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ddc_label_too_many_start --></label>
+        <name>ddcS1contacts__ddc_label_too_many_start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Bosnian --></label>
+        <name>pkb2_lang_bs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welsh --></label>
+        <name>pkb2_lang_cy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Danish --></label>
+        <name>pkb2_lang_da</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- German --></label>
+        <name>pkb2_lang_de</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- English --></label>
+        <name>pkb2_lang_en_US</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Español --></label>
+        <name>pkb2_lang_es</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Estonian --></label>
+        <name>pkb2_lang_et</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Basque --></label>
+        <name>pkb2_lang_eu</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Finnish --></label>
+        <name>pkb2_lang_fi</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Francais --></label>
+        <name>pkb2_lang_fr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Irish (Gaelic) --></label>
+        <name>pkb2_lang_ga</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hindi --></label>
+        <name>pkb2_lang_hi</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Croatian --></label>
+        <name>pkb2_lang_hr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Armenian --></label>
+        <name>pkb2_lang_hy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Icelandic --></label>
+        <name>pkb2_lang_is</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Italian --></label>
+        <name>pkb2_lang_it</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Japanese --></label>
+        <name>pkb2_lang_ja</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Georgian --></label>
+        <name>pkb2_lang_ka</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Korean --></label>
+        <name>pkb2_lang_ko</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Luxembourgish --></label>
+        <name>pkb2_lang_lb</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Lithuanian --></label>
+        <name>pkb2_lang_lt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Latvian --></label>
+        <name>pkb2_lang_lv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Macedonian --></label>
+        <name>pkb2_lang_mk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maltese --></label>
+        <name>pkb2_lang_mt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dutch --></label>
+        <name>pkb2_lang_nl_NL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Portuguese (Brazilian) --></label>
+        <name>pkb2_lang_pt_BR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Portuguese --></label>
+        <name>pkb2_lang_pt_PT</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Moldovan --></label>
+        <name>pkb2_lang_ro_MD</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Russian --></label>
+        <name>pkb2_lang_ru</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Serbian latin --></label>
+        <name>pkb2_lang_sh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Slovak --></label>
+        <name>pkb2_lang_sk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Slovenian --></label>
+        <name>pkb2_lang_sl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Albanian --></label>
+        <name>pkb2_lang_sq</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Serbian Cyrillic --></label>
+        <name>pkb2_lang_sr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Swedish --></label>
+        <name>pkb2_lang_sv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Thai --></label>
+        <name>pkb2_lang_th</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tagalog --></label>
+        <name>pkb2_lang_tl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Urdu --></label>
+        <name>pkb2_lang_ur</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chinese (Simplified) --></label>
+        <name>pkb2_lang_zh_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chinese (Traditional) --></label>
+        <name>pkb2_lang_zh_TW</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add Link --></label>
+        <name>privateAppEx__AddLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Enter the link URL for your resource and a title for the link. --></label>
+        <name>privateAppEx__AddLinkMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Info --></label>
+        <name>privateAppEx__AdditionalInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Set up store --></label>
+        <name>privateAppEx__Admin_Set_Up_Store</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Advanced --></label>
+        <name>privateAppEx__Advanced</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Apps --></label>
+        <name>privateAppEx__AllApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Categories --></label>
+        <name>privateAppEx__AllCategories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Languages --></label>
+        <name>privateAppEx__AllLanguages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- All Time --></label>
+        <name>privateAppEx__All_Time</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Android --></label>
+        <name>privateAppEx__Android</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Access Request --></label>
+        <name>privateAppEx__AppAccessRequest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Access Request Approved for --></label>
+        <name>privateAppEx__AppAccessRequestApprovedFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Access Request Denied for --></label>
+        <name>privateAppEx__AppAccessRequestDeniedFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This App Was Listed Before --></label>
+        <name>privateAppEx__AppListedBefore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Categories --></label>
+        <name>privateAppEx__App_Categories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Information --></label>
+        <name>privateAppEx__App_Information</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Listings --></label>
+        <name>privateAppEx__App_Listings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Android App --></label>
+        <name>privateAppEx__App_Type_Android</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Web App --></label>
+        <name>privateAppEx__App_Type_Web</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- iOS App --></label>
+        <name>privateAppEx__App_Type_iOS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Approval Process --></label>
+        <name>privateAppEx__ApprovalAdministratorsQueue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Approval process setup info --></label>
+        <name>privateAppEx__ApprovalProcessSetupInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available for Use --></label>
+        <name>privateAppEx__AvailableForUse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Available without approval --></label>
+        <name>privateAppEx__Available_Without_Approval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request Access --></label>
+        <name>privateAppEx__BUTTON_AccessPending</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Approve or Reject --></label>
+        <name>privateAppEx__BUTTON_ApproveOrReject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>privateAppEx__BUTTON_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Check Your Apps --></label>
+        <name>privateAppEx__BUTTON_CheckYourApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>privateAppEx__BUTTON_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Listing --></label>
+        <name>privateAppEx__BUTTON_Delete_Listing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit --></label>
+        <name>privateAppEx__BUTTON_Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Get Started --></label>
+        <name>privateAppEx__BUTTON_Get_Started</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hide --></label>
+        <name>privateAppEx__BUTTON_Hide</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Install Now --></label>
+        <name>privateAppEx__BUTTON_InstallNow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List Your Apps --></label>
+        <name>privateAppEx__BUTTON_ListYourApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- More --></label>
+        <name>privateAppEx__BUTTON_More</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OK --></label>
+        <name>privateAppEx__BUTTON_OK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open App --></label>
+        <name>privateAppEx__BUTTON_OpenApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish --></label>
+        <name>privateAppEx__BUTTON_Publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Publish Listing --></label>
+        <name>privateAppEx__BUTTON_PublishListing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reactivate App --></label>
+        <name>privateAppEx__BUTTON_ReactivateApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove App --></label>
+        <name>privateAppEx__BUTTON_RemoveApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request Access --></label>
+        <name>privateAppEx__BUTTON_RequestAccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>privateAppEx__BUTTON_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save &amp; Next --></label>
+        <name>privateAppEx__BUTTON_SaveNext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Changes --></label>
+        <name>privateAppEx__BUTTON_Save_Changes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Apps --></label>
+        <name>privateAppEx__BUTTON_SearchApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Set Your Store Preferences --></label>
+        <name>privateAppEx__BUTTON_SetStorePreferences</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start Over --></label>
+        <name>privateAppEx__BUTTON_StartOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Take Offline --></label>
+        <name>privateAppEx__BUTTON_Take_Offline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Listing --></label>
+        <name>privateAppEx__BUTTON_ViewListing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Watch the Video --></label>
+        <name>privateAppEx__BUTTON_WatchVideo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Banners --></label>
+        <name>privateAppEx__Banners</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Basic Info --></label>
+        <name>privateAppEx__BasicInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Changes Saved --></label>
+        <name>privateAppEx__ChangesSaved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- characters left --></label>
+        <name>privateAppEx__CharactersLeft</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- characters too many --></label>
+        <name>privateAppEx__CharactersTooMany</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chatter --></label>
+        <name>privateAppEx__Chatter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Chatter Feed --></label>
+        <name>privateAppEx__ChatterFeed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Current File --></label>
+        <name>privateAppEx__CurrentFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Dashboard --></label>
+        <name>privateAppEx__Dashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Day 30 --></label>
+        <name>privateAppEx__Day_30</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Banner --></label>
+        <name>privateAppEx__DeleteBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Banner Info --></label>
+        <name>privateAppEx__DeleteBannerInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Resource --></label>
+        <name>privateAppEx__DeleteResource</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Resource Info --></label>
+        <name>privateAppEx__DeleteResourceInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Screenshot --></label>
+        <name>privateAppEx__DeleteScreenshot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete screenshot message --></label>
+        <name>privateAppEx__DeleteScreenshotMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Video --></label>
+        <name>privateAppEx__DeleteVideo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Video Info --></label>
+        <name>privateAppEx__DeleteVideoInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete Listing Confirmation Text --></label>
+        <name>privateAppEx__Delete_Listing_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Detailed Dashboard --></label>
+        <name>privateAppEx__Detailed_Dashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Details --></label>
+        <name>privateAppEx__Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display Chatter feed on app listings --></label>
+        <name>privateAppEx__DisplayChatterOptionLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Access Policy Not Defined --></label>
+        <name>privateAppEx__ERROR_AccessPolicyNotDefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App must be specified --></label>
+        <name>privateAppEx__ERROR_AppRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- App Types Required --></label>
+        <name>privateAppEx__ERROR_AppTypesRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error cannot be longer --></label>
+        <name>privateAppEx__ERROR_CannotBeLonger</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please select at least one category. --></label>
+        <name>privateAppEx__ERROR_CategoryRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when trying to the single store. --></label>
+        <name>privateAppEx__ERROR_DeleteStore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description can not be empty --></label>
+        <name>privateAppEx__ERROR_DescriptionRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The store name cannot be empty. --></label>
+        <name>privateAppEx__ERROR_EmptyStoreName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title cannot be empty. --></label>
+        <name>privateAppEx__ERROR_EmptyTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field too long error --></label>
+        <name>privateAppEx__ERROR_FieldTooLong</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The file you uploaded is too large. --></label>
+        <name>privateAppEx__ERROR_FileTooLarge</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- file type error - only only file type allowed --></label>
+        <name>privateAppEx__ERROR_FileType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Intermittent Problem --></label>
+        <name>privateAppEx__ERROR_IntermittentProblem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid App Id --></label>
+        <name>privateAppEx__ERROR_Invalid_App_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid listing id --></label>
+        <name>privateAppEx__ERROR_Invalid_Listing_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search keyword has to be more than one character. --></label>
+        <name>privateAppEx__ERROR_KeywordLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please select at least one language this app supports. --></label>
+        <name>privateAppEx__ERROR_LangRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- License MissMatch Error --></label>
+        <name>privateAppEx__ERROR_LicenseMissMatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You cannot clone, edit or create listing popularity. --></label>
+        <name>privateAppEx__ERROR_ListingPopularityAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when trying to create additional stores. --></label>
+        <name>privateAppEx__ERROR_MultipleStores</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No approval process set --></label>
+        <name>privateAppEx__ERROR_NoApprovalProcess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No Parameters --></label>
+        <name>privateAppEx__ERROR_No_Parameters</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Only one active App record allowed for each app source. --></label>
+        <name>privateAppEx__ERROR_OnlyOneActiveApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please select a permission set. --></label>
+        <name>privateAppEx__ERROR_PermSetRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The link cannot be empty. --></label>
+        <name>privateAppEx__ERROR_ResourceLinkRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The resource title cannot be empty. --></label>
+        <name>privateAppEx__ERROR_ResourceTitleRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A language must be selected --></label>
+        <name>privateAppEx__ERROR_SelectLanguage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tagline can not be empty --></label>
+        <name>privateAppEx__ERROR_TaglineRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload limit --></label>
+        <name>privateAppEx__ERROR_UploadLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload limit --></label>
+        <name>privateAppEx__ERROR_UploadLimitPleaseDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- is not a valid ID --></label>
+        <name>privateAppEx__ERROR_invalidID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please upload a file. --></label>
+        <name>privateAppEx__ERROR_uploadFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Banner --></label>
+        <name>privateAppEx__EditBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Banner Info --></label>
+        <name>privateAppEx__EditBannerInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit in Setup --></label>
+        <name>privateAppEx__EditInSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Listing --></label>
+        <name>privateAppEx__EditListing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit the name and logo in --></label>
+        <name>privateAppEx__EditLogoInSetup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Screenshot --></label>
+        <name>privateAppEx__EditScreenshot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Screenshot Info --></label>
+        <name>privateAppEx__EditScreenshotInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit Video --></label>
+        <name>privateAppEx__EditVideo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit the type, ID or caption for your video. --></label>
+        <name>privateAppEx__EditVideoFormDetailsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Embed Vimeo video --></label>
+        <name>privateAppEx__EmbedVimeoVideo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Embed YouTube video --></label>
+        <name>privateAppEx__EmbedYouTubeVideo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You cannot delete default listing --></label>
+        <name>privateAppEx__Error_CannotDeleteDefaultListing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You cannot make a hidden listing the default --></label>
+        <name>privateAppEx__Error_HiddenListingDefault</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You cannot hide the default listing for an app --></label>
+        <name>privateAppEx__Error_HideDefaultListing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File --></label>
+        <name>privateAppEx__File</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Find more apps to list on --></label>
+        <name>privateAppEx__FindMoreApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Intro Message --></label>
+        <name>privateAppEx__GettingStarted_Intro</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 1 Text --></label>
+        <name>privateAppEx__GettingStarted_Step1_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 1 Text - Second paragraph --></label>
+        <name>privateAppEx__GettingStarted_Step1_Text_b</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 1 Title --></label>
+        <name>privateAppEx__GettingStarted_Step1_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Text --></label>
+        <name>privateAppEx__GettingStarted_Step2_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Text - ul/li 1 --></label>
+        <name>privateAppEx__GettingStarted_Step2_Text_b</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Text - ul/li 2 --></label>
+        <name>privateAppEx__GettingStarted_Step2_Text_c</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Text - ul/li 3 --></label>
+        <name>privateAppEx__GettingStarted_Step2_Text_d</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Text - ul/li 4 --></label>
+        <name>privateAppEx__GettingStarted_Step2_Text_e</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Text - Second paragraph --></label>
+        <name>privateAppEx__GettingStarted_Step2_Text_f</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 2 Title --></label>
+        <name>privateAppEx__GettingStarted_Step2_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 3 Text --></label>
+        <name>privateAppEx__GettingStarted_Step3_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 3 Text - Second paragraph --></label>
+        <name>privateAppEx__GettingStarted_Step3_Text_b</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 3 Title --></label>
+        <name>privateAppEx__GettingStarted_Step3_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 4 Text --></label>
+        <name>privateAppEx__GettingStarted_Step4_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 4 Text - Second paragraph --></label>
+        <name>privateAppEx__GettingStarted_Step4_Text_b</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Step 4 Title --></label>
+        <name>privateAppEx__GettingStarted_Step4_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started Video Title --></label>
+        <name>privateAppEx__GettingStarted_Video_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Getting Started --></label>
+        <name>privateAppEx__Getting_Started</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go to the App --></label>
+        <name>privateAppEx__GoToTheApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hidden --></label>
+        <name>privateAppEx__Hidden</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Are you sure you would like to hide this listing? --></label>
+        <name>privateAppEx__HideConfirmMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hide Listing --></label>
+        <name>privateAppEx__HideListing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- iOS --></label>
+        <name>privateAppEx__IOS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Are you sure you want to leave this page? --></label>
+        <name>privateAppEx__LeavePageMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link to Video --></label>
+        <name>privateAppEx__LinkToVideo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List in Another Language --></label>
+        <name>privateAppEx__ListInAnotherLanguage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- List a New App --></label>
+        <name>privateAppEx__ListNewApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Listing Banner --></label>
+        <name>privateAppEx__ListingBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Listing Detail Warning --></label>
+        <name>privateAppEx__ListingDetailWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Listing Languages --></label>
+        <name>privateAppEx__ListingLanguages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Listing not finished yet --></label>
+        <name>privateAppEx__ListingNotFinished</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Listing Details --></label>
+        <name>privateAppEx__Listing_Details</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Listing Language --></label>
+        <name>privateAppEx__Listing_Lang</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed when data is loading. --></label>
+        <name>privateAppEx__Loading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Make Default --></label>
+        <name>privateAppEx__MakeDefault</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Media --></label>
+        <name>privateAppEx__Media</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message --></label>
+        <name>privateAppEx__Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error --></label>
+        <name>privateAppEx__Message_Text_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Info --></label>
+        <name>privateAppEx__Message_Text_Info</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Success --></label>
+        <name>privateAppEx__Message_Text_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning --></label>
+        <name>privateAppEx__Message_Text_Warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Month --></label>
+        <name>privateAppEx__Month</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Most Popular Apps --></label>
+        <name>privateAppEx__Most_Popular_Apps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- New File --></label>
+        <name>privateAppEx__NewFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- No results found. --></label>
+        <name>privateAppEx__NoSearchResults</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You do not have access to administer the store. --></label>
+        <name>privateAppEx__No_Access_To_Administer_Store</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You do not have access to the store. --></label>
+        <name>privateAppEx__No_Access_To_Store</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None --></label>
+        <name>privateAppEx__None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label to indicate no items from a list (e.g., categories for an app). --></label>
+        <name>privateAppEx__NoneSelected</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open link in a new window --></label>
+        <name>privateAppEx__OpenLinkNewWindow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- (optional) --></label>
+        <name>privateAppEx__OptionalParens</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- or (used between two buttons) --></label>
+        <name>privateAppEx__OrForOptions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page View --></label>
+        <name>privateAppEx__Page_View</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Page Views --></label>
+        <name>privateAppEx__Page_Views</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select the permission set that grants access to this app. --></label>
+        <name>privateAppEx__PermissionSetDescriptionOverlay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please go to --></label>
+        <name>privateAppEx__PleaseGoTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- 30 Days --></label>
+        <name>privateAppEx__PopularityMetricThirtyDays</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Private AppExchange --></label>
+        <name>privateAppEx__Private_AppExchange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Process defined --></label>
+        <name>privateAppEx__ProcessDefined</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- publish --></label>
+        <name>privateAppEx__Publish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Are you sure you would like to publish this listing? --></label>
+        <name>privateAppEx__PublishConfirmMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Published --></label>
+        <name>privateAppEx__Published</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Published Apps --></label>
+        <name>privateAppEx__Published_Apps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- This app was listed before in the store. --></label>
+        <name>privateAppEx__ReactivateAppMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rearrange banners message. --></label>
+        <name>privateAppEx__RearrangeBannersMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rearrange listing resources message. --></label>
+        <name>privateAppEx__RearrangeResourcesMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message displayed to confirm removing from store action. --></label>
+        <name>privateAppEx__RemoveAppConfirmMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Remove App from Store --></label>
+        <name>privateAppEx__RemoveAppFromStore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request Access To --></label>
+        <name>privateAppEx__RequestAccessTo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Request/Install --></label>
+        <name>privateAppEx__RequestInstall</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Requests/Installs --></label>
+        <name>privateAppEx__RequestsInstalls</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required fields are marked with --></label>
+        <name>privateAppEx__RequiredFieldsAreMarked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When all the required fields have a value you can take the store online. --></label>
+        <name>privateAppEx__RequiredFieldsForOnline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Resources --></label>
+        <name>privateAppEx__Resources</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>privateAppEx__Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Screenshots &amp; Videos --></label>
+        <name>privateAppEx__ScreenshotsAndVideos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select An App --></label>
+        <name>privateAppEx__SelectAnApp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select the app you are listing --></label>
+        <name>privateAppEx__SelectAnAppToList</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select the categories this app belongs in --></label>
+        <name>privateAppEx__SelectAppCategories</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select the languages this app supports --></label>
+        <name>privateAppEx__SelectAppLanguages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectOne --></label>
+        <name>privateAppEx__SelectOne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select the app types your store will support. --></label>
+        <name>privateAppEx__SelectStoreAppTypes</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select a listing language --></label>
+        <name>privateAppEx__Select_Listing_Language</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Setup --></label>
+        <name>privateAppEx__Setup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Similar Apps --></label>
+        <name>privateAppEx__Similar_Apps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A-Z --></label>
+        <name>privateAppEx__SortA_Z</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Popular --></label>
+        <name>privateAppEx__SortPopular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recent --></label>
+        <name>privateAppEx__SortRecent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Relevance --></label>
+        <name>privateAppEx__SortRelevance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The store is currently offline. --></label>
+        <name>privateAppEx__Standard_User_Site_Unavailable</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Store Banners --></label>
+        <name>privateAppEx__StoreBanners</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The store is offline. --></label>
+        <name>privateAppEx__StoreIsOffline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The store is online. --></label>
+        <name>privateAppEx__StoreIsOnline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Store Logo --></label>
+        <name>privateAppEx__StoreLogo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Store Name --></label>
+        <name>privateAppEx__StoreName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Store Preferences --></label>
+        <name>privateAppEx__Store_Preferences</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Take Store Offline --></label>
+        <name>privateAppEx__TakeStoreOffline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Take Store Online --></label>
+        <name>privateAppEx__TakeStoreOnline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AppExchange --></label>
+        <name>privateAppEx__TheAppExchange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Tile Preview --></label>
+        <name>privateAppEx__TilePreview</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title --></label>
+        <name>privateAppEx__Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total --></label>
+        <name>privateAppEx__Total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>privateAppEx__Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsaved Changes --></label>
+        <name>privateAppEx__UnsavedChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- You have made some changes which you might want to save. --></label>
+        <name>privateAppEx__UnsavedChangesMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsaved Changes for Publish Listing --></label>
+        <name>privateAppEx__UnsavedChangesPublish</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Unsaved Message Listings --></label>
+        <name>privateAppEx__Unsaved_Message_Listings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Banner --></label>
+        <name>privateAppEx__UploadBanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Banner Info --></label>
+        <name>privateAppEx__UploadBannerInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload banners message. --></label>
+        <name>privateAppEx__UploadBannersMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload File --></label>
+        <name>privateAppEx__UploadFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload a file that is up to 5 MB in size and enter a title for your resource. --></label>
+        <name>privateAppEx__UploadResourceFileMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Screenshot --></label>
+        <name>privateAppEx__UploadScreenshot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload screenshot message --></label>
+        <name>privateAppEx__UploadScreenshotMsg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload Store Banners --></label>
+        <name>privateAppEx__UploadStoreBanners</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Upload store logo message. --></label>
+        <name>privateAppEx__UploadStoreLogo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User License --></label>
+        <name>privateAppEx__UserLicense</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Video form details message --></label>
+        <name>privateAppEx__VideoFormDetailsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Video ID --></label>
+        <name>privateAppEx__VideoID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Analytics --></label>
+        <name>privateAppEx__ViewAnalytics</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View App Details --></label>
+        <name>privateAppEx__ViewAppDetails</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Store --></label>
+        <name>privateAppEx__ViewStore</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View All --></label>
+        <name>privateAppEx__View_All</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- View Detailed Dashboard --></label>
+        <name>privateAppEx__View_Detailed_Dashboard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Week --></label>
+        <name>privateAppEx__Week</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome to the Private AppExchange --></label>
+        <name>privateAppEx__Welcome_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Wrong Device --></label>
+        <name>privateAppEx__WrongDevice</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Year --></label>
+        <name>privateAppEx__Year</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Your Comment --></label>
+        <name>privateAppEx__YourComment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- default --></label>
+        <name>privateAppEx__default</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Thousands Delimiter --></label>
+        <name>privateAppEx__thousandsDelimiter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pardot Production Api Base Url --></label>
+        <name>salesedgedemo__Pardot_Production_Api_Base_Url</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- All Communities --></label>
+        <name>All_Communities</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Edit Welcome Message --></label>
+        <name>CP_Link_to_Edit_VF_APEX</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Center Image --></label>
+        <name>CP_Replace_Center_Mktg_Message</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Left Image --></label>
+        <name>CP_Replace_Left_Mktg_Message</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Right Image --></label>
+        <name>CP_Replace_Right_Mktg_Message</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Quote Logo --></label>
+        <name>Change_Logo_in_Quote_PDF</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Company Websites --></label>
+        <name>Cirrus_Websites</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Customer Portal --></label>
+        <name>Customer_Portal</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Quick Reset --></label>
+        <name>Datadotcom_Demo_Quick_Reset</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Advanced Reset --></label>
+        <name>Datadotcom_Demo_Reset</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Login As Engineer --></label>
+        <name>Login_As_Engineer</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Login As Second Support Agent --></label>
+        <name>Login_As_Second_Support_Agent</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Login as Cindy Central (Sales) --></label>
+        <name>Login_as_Cindy_Central_Sales</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Login as Me --></label>
+        <name>Login_as_Me</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Login as Tim Service (Service) --></label>
+        <name>Login_as_Service_Agent</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Org Customizer --></label>
+        <name>OrgCustomizer</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Edit Welcome Message --></label>
+        <name>Part_Portal_Link_to_Edit_VF_APEX</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Center Image --></label>
+        <name>Part_Portal_Replace_Center_Mktg_Message</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Left Image --></label>
+        <name>Part_Portal_Replace_Left_Mktg_Message</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Right Image --></label>
+        <name>Part_Portal_Replace_Right_Mktg_Message</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Partner Portal --></label>
+        <name>Partner_Portal</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Platform (Chris Plus) --></label>
+        <name>Platform_Chris_Plus</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Company Logo --></label>
+        <name>Replace_Company_Logo</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Banner for W2L/W2C/Portals --></label>
+        <name>Replace_Customer_Portal_Banner</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Replace Knowledge Banner in Sites --></label>
+        <name>Replace_Knowledge_Banner_in_Sites</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- SDO Home --></label>
+        <name>SDO_Home</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- SF1 Mobile Chrome Plugin --></label>
+        <name>SF1_Mobile_Plugin</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Sales (Cindy Central) --></label>
+        <name>Sales_Cindy_Central</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Service (Steven Service) --></label>
+        <name>Service_Steven_Service</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Swap out Customer Site / Customer Portal Home Tab Welcoming Message --></label>
+        <name>Swap_out_Customer_Site_Customer_Portal_Banner</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Swap out Partner Site / Partner Portal Home Tab Welcoming Message --></label>
+        <name>Swap_out_Partner_Site_Partner_Portal_Banner</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Swap out Public Site / Public Portal Home Tab Welcoming Message --></label>
+        <name>Swap_out_Public_Site_Public_Portal_Banner</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Web to Case --></label>
+        <name>Web2Case</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Web to Lead --></label>
+        <name>Web2Lead</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Web to Lead - Data.com --></label>
+        <name>Web_to_Lead_Data_com</name>
+    </customPageWebLinks>
+</Translations>

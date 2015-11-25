@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Date Expiration Carte Crédit</label>
+        <name>Credit_Card_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label>Nom sur Carte Crédit</label>
+        <name>Credit_Card_Name__c</name>
+    </fields>
+    <fields>
+        <label>Numéro de Carte Crédit</label>
+        <name>Credit_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label>Indicateur</label>
+        <name>Indicator__c</name>
+    </fields>
+    <fields>
+        <label>Méthode de Livraison</label>
+        <name>Shipping_Method__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Suivre!</label>
+        <name>Track_It__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sample Tracking Number:
+FedEx: 123456789012 --></help>
+        <label>Numéro du Suivi</label>
+        <name>Tracking_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields>
+    <recordTypes>
+        <label>Commande - Entreprise</label>
+        <name>Order_Business</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Commande - Particulier</label>
+        <name>Order_Consumer</name>
+    </recordTypes>
+    <webLinks>
+        <label>Catalogue de produits</label>
+        <name>Product_Catalog</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Simple</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Competitor__c</fieldNames>
+        <fieldNames>Loss_Reason__c</fieldNames>
+        <picklistValueName>Closed Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Implementation_Start__c</fieldNames>
+        <fieldNames>Project_Manager_Contact__c</fieldNames>
+        <info>&lt;img alt=&quot;&quot; src=&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS57WBzpmJ4wbuNv-nRXx8N5I7DErBryALQefSFF-p_8MEjnoBp&quot; style=&quot;height: 177px; width: 285px;&quot;&gt;&lt;/img&gt;</info>
+        <picklistValueName>Closed Won</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Project_Budget__c</fieldNames>
+        <fieldNames>Competitor__c</fieldNames>
+        <fieldNames>NextStep</fieldNames>
+        <info>&lt;strong&gt;Questions to Consider&lt;/strong&gt;&lt;span style=&quot;&quot;&gt;:&lt;/span&gt;
+
+&lt;ul&gt;&lt;li&gt;Who are their customers? End users, B2B, B2C, partners?&lt;/li&gt;&lt;li&gt;How do they sell? Low volume/high cost; high volume/low cost?&lt;/li&gt;&lt;li&gt;What is a day in the life for a user/manager?&lt;/li&gt;&lt;li&gt;What is the typical sales cycle?&lt;/li&gt;&lt;li&gt;How do they service/retain their customers?&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Recommended Group&lt;/strong&gt;&lt;br&gt;&lt;a href=&quot;https://na17.salesforce.com/sfc/p/300000007EfQ/a/o0000000Gnga/O3xyR53d1eNEH7Agk7P.QzBQQMf6wTFgj6IMqJW__pg&quot; target=&quot;_blank&quot;&gt;First Call Deck&lt;/a&gt;&lt;br style=&quot;&quot;&gt;
+&lt;a href=&quot;http://www.salesforce.com&quot; style=&quot;&quot; target=&quot;_blank&quot;&gt;Competitive Experts&lt;/a&gt;</info>
+        <picklistValueName>Needs Analysis</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Simple</recordTypeName>
+</PathAssistant>

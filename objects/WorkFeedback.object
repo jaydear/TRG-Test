@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>FeedBackLastConvertDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Last time this feedback was converted to string/int</inlineHelpText>
+        <label>Feedback Last Processed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Feedback</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QuestionId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RequestId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>needConverting__c</fullName>
+        <description>Doing this way because soql don&apos;t allow you do to LastModifiedDate &gt; FeedBackLastConvertDate__c in where clause
+1 = 1day, 0.5 = 12hr
+if $Setup.WorkCustomObject__c.FeedbackBufferSec__c is blank, then 15 seconds is set</description>
+        <externalId>false</externalId>
+        <formula>ISNULL(FeedBackLastConvertDate__c) || 
+(LastModifiedDate - FeedBackLastConvertDate__c) &gt; ( 1.0/(24*60*60)*BLANKVALUE($Setup.WorkCustomObject__c.FeedbackBufferSec__c,15) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Check if there was modification to feedback after last convert, within WorkCustomObject__c.FeedbackBufferSec__c seconds</inlineHelpText>
+        <label>Need Converting</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>numericValue__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>number value of the text</inlineHelpText>
+        <label>Numeric Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>stringValue__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>String value of the feedback</inlineHelpText>
+        <label>String Value</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>Request</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Question</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Feedback</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Request</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Question</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Feedback</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

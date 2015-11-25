@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>組み合わせ</label>
+        <name>Asset_Combo__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields>
+    <fields>
+        <label>お客様の電子メール</label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label>資格インジケータ</label>
+        <name>Entitelemt_Indicator__c</name>
+    </fields>
+    <fields>
+        <label>資格状況</label>
+        <name>Entitlement_Status__c</name>
+        <picklistValues>
+            <masterLabel>30 Day Warning</masterLabel>
+            <translation>30日後に期限切れ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>期限切れ</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>画像</label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <name>ProductFamily</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>製品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation>導入済み</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete</masterLabel>
+            <translation>廃止</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased</masterLabel>
+            <translation>購入済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation>登録済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation>配送済</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>推奨製品</label>
+        <name>Suggested_Products__c</name>
+        <picklistValues>
+            <masterLabel>Product 1</masterLabel>
+            <translation>製品1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 2</masterLabel>
+            <translation>製品2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 3</masterLabel>
+            <translation>製品3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Services</masterLabel>
+            <translation>テクニカルサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Services</masterLabel>
+            <translation>トレーニングサービス</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

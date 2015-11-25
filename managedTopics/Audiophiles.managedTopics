@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Featured:Audio Lounge</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Audio Lounge</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription>Share your ideas and inspirations with other audio enthusiasts.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Headphones</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Headphones</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Hi-Fi Systems</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Hi-Fi Systems</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Home Theater</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Home Theater</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Projectors</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Projectors</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Speakers</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Speakers</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Audio Lounge</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Audio Lounge</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription>Share your ideas and inspirations with other audio enthusiasts.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Earbuds</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Earbuds</name>
+        <parentName>Headphones</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Headphones</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Headphones</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Hi-Fi Systems</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Hi-Fi Systems</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Home Theater</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Home Theater</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Home Theatre</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Home Theatre</name>
+        <parentName>Projectors</parentName>
+        <position>0</position>
+        <topicDescription>This is used as a sub-topic for Conferencing.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Multiroom Audio</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Multiroom Audio</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Over-Ear &amp; On-Ear</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Over-Ear &amp; On-Ear</name>
+        <parentName>Headphones</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Portable</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Portable</name>
+        <parentName>Projectors</parentName>
+        <position>1</position>
+        <topicDescription>This is used as a sub-topic for Projectors.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Projectors</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Projectors</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Speakers</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Speakers</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Surround Sound</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Surround Sound</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Wireless</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Wireless</name>
+        <parentName>Headphones</parentName>
+        <position>2</position>
+        <topicDescription>This is used as a navigational sub-topic.</topicDescription>
+    </managedTopic>
+</ManagedTopics>

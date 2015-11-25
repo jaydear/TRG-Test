@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>社内返信</label>
+        <name>Internal_Response__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- *Company-wide Ideas*: Reply Record Type --></label>
+        <name>Record_type_for_community_09a3000000006wbAAA_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Community Ideas*: Reply Record Type --></label>
+        <name>Record_type_for_community_09a3000000006zPAAQ_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Announcements: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1VAAU_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CRM Rollout: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1aAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Green Office Initiative - Reduce, Reuse, Recycle: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1fAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Product Idea: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1kAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Services Idea: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1pAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Sales Idea: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1qAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My IT Idea: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1uAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Foundation Idea: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M1zAAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- My Marketing Idea: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004M24AAE_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Answers: Reply Record Type --></label>
+        <name>Record_type_for_community_09a300000004uGeAAI_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- *Customers Answers Community*: Reply Record Type --></label>
+        <name>Record_type_for_community_09a3000000050d1AAA_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Support Answers: Reply Record Type --></label>
+        <name>Record_type_for_community_09a30000000L9iTAAS_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Video Conferencing: Reply Record Type --></label>
+        <name>Record_type_for_community_09a30000000LApuAAG_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Wireless Solutions: Reply Record Type --></label>
+        <name>Record_type_for_community_09a30000000LApzAAG_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Routers and Switches: Reply Record Type --></label>
+        <name>Record_type_for_community_09a30000000LAq4AAG_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- customer community ideas: Reply Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LBtOAAW_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- partner communities ideas: Reply Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LBtTAAW_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MSS: Reply Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LFBUAA4_entity_Reply</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MSS 2: Reply Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LFBZAA4_entity_Reply</name>
+    </recordTypes>
+</CustomObjectTranslation>

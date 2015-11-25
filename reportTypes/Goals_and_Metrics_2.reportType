@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Goal</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Goals and Metrics Report Type</description>
+    <join>
+        <outerJoin>true</outerJoin>
+        <relationship>Metrics</relationship>
+    </join>
+    <label>Goals and Metrics - Summer &apos;15</label>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Progress</displayNameOverride>
+            <field>Progress</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Status</displayNameOverride>
+            <field>Status</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Due Date</displayNameOverride>
+            <field>DueDate</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Completion Date</displayNameOverride>
+            <field>CompletionDate</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Created By</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Created Date</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Description</displayNameOverride>
+            <field>Description</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>IsKeyCompanyGoal</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Last Modified By</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Last Modified Date</displayNameOverride>
+            <field>LastModifiedDate</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Start Date</displayNameOverride>
+            <field>StartDate</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Owner Name</displayNameOverride>
+            <field>Owner</field>
+            <table>Goal</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Goal Owner Is Direct Report</displayNameOverride>
+            <field>isUserManager__c</field>
+            <table>Goal</table>
+        </columns>
+        <masterLabel>Goals</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Metric Status</displayNameOverride>
+            <field>Status</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Metric Due Date</displayNameOverride>
+            <field>DueDate</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastComment</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Completion Date</displayNameOverride>
+            <field>CompletionDate</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Created By</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Created Date</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrentValue</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Description</displayNameOverride>
+            <field>Description</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>InitialValue</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Last Modified By</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Last Modified Date</displayNameOverride>
+            <field>LastModifiedDate</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Record Type</displayNameOverride>
+            <field>RecordType</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>TargetValue</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Weight</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Progress</displayNameOverride>
+            <field>Progress</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Owner Name</displayNameOverride>
+            <field>Owner</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Metric Owner Is Direct Report</displayNameOverride>
+            <field>isUserManager__c</field>
+            <table>Goal.Metrics</table>
+        </columns>
+        <masterLabel>Metrics</masterLabel>
+    </sections>
+</ReportType>

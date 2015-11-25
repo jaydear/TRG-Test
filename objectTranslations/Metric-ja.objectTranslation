@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- OrigMetricId --></label>
+        <name>OrigMetricId__c</name>
+    </fields>
+    <fields>
+        <label>マネージャ</label>
+        <name>isUserManager__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Completion --></label>
+        <name>Completion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Progress --></label>
+        <name>Progress</name>
+    </recordTypes>
+</CustomObjectTranslation>

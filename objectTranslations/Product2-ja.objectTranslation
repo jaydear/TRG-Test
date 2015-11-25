@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>協議中</label>
+        <name>Attribute_1__c</name>
+        <picklistValues>
+            <masterLabel>Conference Room-in-a-Box</masterLabel>
+            <translation>WiFi会議室</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projectors</masterLabel>
+            <translation>プロジェクター</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ポータブルオーディオ</label>
+        <name>Attribute_2__c</name>
+        <picklistValues>
+            <masterLabel>Desktop Audio</masterLabel>
+            <translation>スピーカー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headphones</masterLabel>
+            <translation>ヘッドホン</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ホームオーディオ</label>
+        <name>Attribute_3__c</name>
+        <picklistValues>
+            <masterLabel>Home Theatre</masterLabel>
+            <translation>ホームシアター</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Room Audio</masterLabel>
+            <translation>複数ルームオーディオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speakers</masterLabel>
+            <translation>スピーカー</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>色</label>
+        <name>Attribute_4__c</name>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation>ブラック</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gray</masterLabel>
+            <translation>グレー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>シルバー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation>ホワイト</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>サービス</label>
+        <name>Attribute_5__c</name>
+        <picklistValues>
+            <masterLabel>Installation Services</masterLabel>
+            <translation>初期導入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protection Plans</masterLabel>
+            <translation>保守プラン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Support</masterLabel>
+            <translation>テクニカルサポート</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>詳細</label>
+        <name>Detail__c</name>
+    </fields>
+    <fields>
+        <label>DB（ツール用）</label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <name>Family</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>製品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ID for Org Customizer --></label>
+        <name>ID_for_Org_Customizer__c</name>
+    </fields>
+    <fields>
+        <label>画像</label>
+        <name>Image__c</name>
+    </fields>
+    <fields>
+        <label>追加詳細</label>
+        <name>Item_Additional_Details__c</name>
+    </fields>
+    <fields>
+        <label>特徴</label>
+        <name>Item_Features__c</name>
+    </fields>
+    <fields>
+        <label>商品画像（大）</label>
+        <name>Item_Image_Large__c</name>
+    </fields>
+    <fields>
+        <label>商品画像</label>
+        <name>Item_Image__c</name>
+    </fields>
+    <fields>
+        <label>詳細説明</label>
+        <name>Item_Long_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item MSRP --></label>
+        <name>Item_MSRP__c</name>
+    </fields>
+    <fields>
+        <label>商品概要</label>
+        <name>Item_Short_Description__c</name>
+    </fields>
+    <fields>
+        <label>仕様</label>
+        <name>Item_Specifications__c</name>
+    </fields>
+    <fields>
+        <label>製品モデル</label>
+        <name>Model__c</name>
+    </fields>
+    <fields>
+        <label>画像</label>
+        <name>ProductImageRelatedList__c</name>
+    </fields>
+    <fields>
+        <label>製品グループ</label>
+        <name>Product_Catalog__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Electronics</masterLabel>
+            <translation>電化製品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generic</masterLabel>
+            <translation>一般製品</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Uses Product_Image_URL__c to reference the image stored in the Documents Tab. Image is 300px height by 512px width --></help>
+        <label>製品画像</label>
+        <name>Product_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site.com ID --></label>
+        <name>Site_com_ID__c</name>
+    </fields>
+    <fields>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>承認済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>レビュー中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published to Website</masterLabel>
+            <translation>ウェブサイトに公開済み</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- purl --></label>
+        <name>purl__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Catalog Products --></label>
+        <name>Catalog_Products</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Products --></label>
+        <name>Products</name>
+    </recordTypes>
+    <webLinks>
+        <label>画像追加</label>
+        <name>Update_Image</name>
+    </webLinks>
+</CustomObjectTranslation>

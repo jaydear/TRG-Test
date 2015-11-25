@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Goal.Metrics$Name</field>
+    </columns>
+    <columns>
+        <field>Goal.Metrics$Status</field>
+    </columns>
+    <columns>
+        <field>Goal.Metrics$DueDate</field>
+    </columns>
+    <columns>
+        <field>Goal$Progress</field>
+    </columns>
+    <description>Work.com: This sample report answers questions like:
+-how are key company goals progressing?</description>
+    <filter>
+        <criteriaItems>
+            <column>Goal$IsKeyCompanyGoal</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Goal$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Key Company Goal Progress</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Goals_and_Metrics_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Goal$DueDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deal Support Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deal Support Requests</value>
+    </caseValues>
+    <fields>
+        <help><!-- Please provide additional details on what is needed to support this request? --></help>
+        <label><!-- Additional Details --></label>
+        <name>Additional_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Champion Identified? --></label>
+        <name>Champion_Identified__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Compelling Event for Business Case --></label>
+        <name>Compelling_Event_for_Business_Case__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Environment --></label>
+        <name>Competitive_Environment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Pain Points --></label>
+        <name>Customer_Pain_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Benefits --></label>
+        <name>Expected_Benefits_from_HP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Terns --></label>
+        <name>Finance_Terns__c</name>
+        <picklistValues>
+            <masterLabel>0-6 Months</masterLabel>
+            <translation><!-- 0-6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-9 Months</masterLabel>
+            <translation><!-- 6-9 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9-12 Months</masterLabel>
+            <translation><!-- 9-12 Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gained Executive Sponsorship? --></label>
+        <name>Gained_Executive_Sponsorship__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Key Metrics --></label>
+        <name>Key_Metrics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Steps --></label>
+        <name>Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Deal Support Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Industry --></label>
+        <name>Other_Industry__c</name>
+    </fields>
+    <fields>
+        <help><!-- Who else involved with your opportunity should be included in this request (VP, PM, etc) --></help>
+        <label><!-- Other Sales Members to Include --></label>
+        <name>Other_Sales_Members_to_Include__c</name>
+    </fields>
+    <fields>
+        <help><!-- Who else involved in your opportunity should be included in this request (AVP, SVP, etc) --></help>
+        <label><!-- Other Sales Team Members to Include --></label>
+        <name>Other_Sales_Team_Members_to_Include__c</name>
+    </fields>
+    <fields>
+        <help><!-- What are some potential questions your prospect will ask? --></help>
+        <label><!-- Potential Questions --></label>
+        <name>Potential_Questions__c</name>
+    </fields>
+    <fields>
+        <help><!-- What does your prospect expect to get out of this call? --></help>
+        <label><!-- Primary Objectives --></label>
+        <name>Primary_Objectives__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please list names and titles of people at your prospects company who will attend the call --></help>
+        <label><!-- Reference Call Attendees --></label>
+        <name>Reference_Call_Attendees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference Type --></label>
+        <name>Reference_Type__c</name>
+        <picklistValues>
+            <masterLabel>Reference Collateral</masterLabel>
+            <translation><!-- Reference Collateral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Visit</masterLabel>
+            <translation><!-- Reference Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Reference Call</masterLabel>
+            <translation><!-- Sales Reference Call --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Industry --></label>
+        <name>Requested_Industry__c</name>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation><!-- Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation><!-- Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi Tech Hardware</masterLabel>
+            <translation><!-- Hi Tech Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi Tech Software</masterLabel>
+            <translation><!-- Hi Tech Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Sciences</masterLabel>
+            <translation><!-- Life Sciences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil and Gas/Energy</masterLabel>
+            <translation><!-- Oil and Gas/Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Service</masterLabel>
+            <translation><!-- Professional Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Sector</masterLabel>
+            <translation><!-- Public Sector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Product Expertise --></label>
+        <name>Requested_Product_Expertise__c</name>
+        <picklistValues>
+            <masterLabel>Data center monitoring system</masterLabel>
+            <translation><!-- Data center monitoring system --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP BladeSystem</masterLabel>
+            <translation><!-- HP BladeSystem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Insight Management</masterLabel>
+            <translation><!-- HP Insight Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Integrity NonStop BladeSystem</masterLabel>
+            <translation><!-- HP Integrity NonStop BladeSystem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Integrity NonStop servers</masterLabel>
+            <translation><!-- HP Integrity NonStop servers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Integrity Rack servers</masterLabel>
+            <translation><!-- HP Integrity Rack servers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Integrity Server blades</masterLabel>
+            <translation><!-- HP Integrity Server blades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Integrity Superdome servers</masterLabel>
+            <translation><!-- HP Integrity Superdome servers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP NonStop servers</masterLabel>
+            <translation><!-- HP NonStop servers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP ProLiant BL blades</masterLabel>
+            <translation><!-- HP ProLiant BL blades --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP ProLiant DL</masterLabel>
+            <translation><!-- HP ProLiant DL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP ProLiant ML</masterLabel>
+            <translation><!-- HP ProLiant ML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP ProLiant MicroServer</masterLabel>
+            <translation><!-- HP ProLiant MicroServer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP ProLiant SL</masterLabel>
+            <translation><!-- HP ProLiant SL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Qualified Options</masterLabel>
+            <translation><!-- HP Qualified Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP Storage</masterLabel>
+            <translation><!-- HP Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP-UX 11i</masterLabel>
+            <translation><!-- HP-UX 11i --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Linux on Integrity</masterLabel>
+            <translation><!-- Linux on Integrity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management Software</masterLabel>
+            <translation><!-- Management Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking products</masterLabel>
+            <translation><!-- Networking products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NonStop</masterLabel>
+            <translation><!-- NonStop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OpenVMS</masterLabel>
+            <translation><!-- OpenVMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProLiant storage servers</masterLabel>
+            <translation><!-- ProLiant storage servers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rack and Power infrastructure products</masterLabel>
+            <translation><!-- Rack and Power infrastructure products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtualization Software ProLiant</masterLabel>
+            <translation><!-- Virtualization Software ProLiant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windows® on Integrity</masterLabel>
+            <translation><!-- Windows® on Integrity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Timeframe --></label>
+        <name>Requested_Timeframe__c</name>
+        <picklistValues>
+            <masterLabel>Further Out</masterLabel>
+            <translation><!-- Further Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Week</masterLabel>
+            <translation><!-- Next Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>This Week</masterLabel>
+            <translation><!-- This Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tomorrow</masterLabel>
+            <translation><!-- Tomorrow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Level of risk associated with the financing? --></help>
+        <label><!-- Risk --></label>
+        <name>Risk__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shared Benchmarks --></label>
+        <name>Shared_Benchmarks__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shared Customer Stories? --></label>
+        <name>Shared_Customer_Stories__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please provide any additional information about the time-frame of this request --></help>
+        <label><!-- Timeframe Notes --></label>
+        <name>Timeframe_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the title of the customer delivering the reference is important/essential, enter in the details here --></help>
+        <label><!-- Title Requirement --></label>
+        <name>Title_Requirement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Support? --></label>
+        <name>Type_of_Support__c</name>
+        <picklistValues>
+            <masterLabel>Customer Business Case (Large, Complex, Strategic)</masterLabel>
+            <translation><!-- Customer Business Case (Large, Complex, Strategic) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Facing - Methodology Guidance</masterLabel>
+            <translation><!-- Customer Facing - Methodology Guidance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal - Guidance on Support/Process</masterLabel>
+            <translation><!-- Internal - Guidance on Support/Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review Tools and Content</masterLabel>
+            <translation><!-- Review Tools and Content --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What would you like to accomplish? --></label>
+        <name>What_would_you_like_to_accomplish__c</name>
+    </fields>
+    <fields>
+        <label><!-- Where are you in the process? --></label>
+        <name>Where_are_you_in_the_process__c</name>
+        <picklistValues>
+            <masterLabel>Early: Oppty/Business Case Planning</masterLabel>
+            <translation><!-- Early: Oppty/Business Case Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalizing ROI/TCO Spreadsheets Inputs</masterLabel>
+            <translation><!-- Finalizing ROI/TCO Spreadsheets Inputs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduced Customer to HP Process</masterLabel>
+            <translation><!-- Introduced Customer to HP Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent Questionnaire</masterLabel>
+            <translation><!-- Sent Questionnaire --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Business Case (ROI/TCO) --></label>
+        <name>Business_Case_ROI_TCO</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Competitive War Room --></label>
+        <name>Competitive_War_Room</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Financing Team Request --></label>
+        <name>Financing_Team_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reference Request --></label>
+        <name>Reference_Request</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Additional_Details__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide additional details on what is needed to support this request?</inlineHelpText>
+        <label>Additional Details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Champion_Identified__c</fullName>
+        <externalId>false</externalId>
+        <label>Champion Identified?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Compelling_Event_for_Business_Case__c</fullName>
+        <externalId>false</externalId>
+        <label>Compelling Event for Business Case</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Competitive_Environment__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitive Environment</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Pain_Points__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Pain Points</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Expected_Benefits_from_HP__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Benefits</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Finance_Terns__c</fullName>
+        <externalId>false</externalId>
+        <label>Finance Terns</label>
+        <picklist>
+            <picklistValues>
+                <fullName>0-6 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>6-9 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>9-12 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Gained_Executive_Sponsorship__c</fullName>
+        <externalId>false</externalId>
+        <label>Gained Executive Sponsorship?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Key_Metrics__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Metrics</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Next_Steps__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Steps</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Deal Support Requests</relationshipLabel>
+        <relationshipName>Deal_Support_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Other_Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Industry</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_Sales_Members_to_Include__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Who else involved with your opportunity should be included in this request (VP, PM, etc)</inlineHelpText>
+        <label>Other Sales Members to Include</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Sales_Team_Members_to_Include__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Who else involved in your opportunity should be included in this request (AVP, SVP, etc)</inlineHelpText>
+        <label>Other Sales Team Members to Include</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Potential_Questions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What are some potential questions your prospect will ask?</inlineHelpText>
+        <label>Potential Questions</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Primary_Objectives__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What does your prospect expect to get out of this call?</inlineHelpText>
+        <label>Primary Objectives</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reference_Call_Attendees__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please list names and titles of people at your prospects company who will attend the call</inlineHelpText>
+        <label>Reference Call Attendees</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reference_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Reference Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Sales Reference Call</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reference Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reference Collateral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Industry</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hi Tech Hardware</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hi Tech Software</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Oil and Gas/Energy</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Professional Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Requested_Product_Expertise__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Product Expertise</label>
+        <picklist>
+            <picklistValues>
+                <fullName>HP ProLiant DL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP ProLiant ML</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP ProLiant BL blades</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP ProLiant SL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP ProLiant MicroServer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Integrity Superdome servers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Integrity Server blades</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Integrity Rack servers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP NonStop servers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Integrity NonStop BladeSystem</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Integrity NonStop servers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Virtualization Software ProLiant</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Windows® on Integrity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Linux on Integrity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP-UX 11i</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NonStop</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>OpenVMS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP BladeSystem</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ProLiant storage servers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Qualified Options</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Storage</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Management Software</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Networking products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rack and Power infrastructure products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data center monitoring system</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>HP Insight Management</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Requested_Timeframe__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Timeframe</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Further Out</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Next Week</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>This Week</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Risk__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Level of risk associated with the financing?</inlineHelpText>
+        <label>Risk</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Shared_Benchmarks__c</fullName>
+        <externalId>false</externalId>
+        <label>Shared Benchmarks</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Shared_Customer_Stories__c</fullName>
+        <externalId>false</externalId>
+        <label>Shared Customer Stories?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>No</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>New</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Timeframe_Notes__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please provide any additional information about the time-frame of this request</inlineHelpText>
+        <label>Timeframe Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Title_Requirement__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If the title of the customer delivering the reference is important/essential, enter in the details here</inlineHelpText>
+        <label>Title Requirement</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Support__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Support?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Internal - Guidance on Support/Process</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Facing - Methodology Guidance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Review Tools and Content</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Business Case (Large, Complex, Strategic)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>What_would_you_like_to_accomplish__c</fullName>
+        <externalId>false</externalId>
+        <label>What would you like to accomplish?</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Where_are_you_in_the_process__c</fullName>
+        <externalId>false</externalId>
+        <label>Where are you in the process?</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Early: Oppty/Business Case Planning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Introduced Customer to HP Process</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sent Questionnaire</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Finalizing ROI/TCO Spreadsheets Inputs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <label>Deal Support Request</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>DS-{000000}</displayFormat>
+        <label>DS #</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Deal Support Requests</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Business_Case_ROI_TCO</fullName>
+        <active>true</active>
+        <description>Business Case (ROI/TCO)</description>
+        <label>Business Case (ROI/TCO)</label>
+        <picklistValues>
+            <picklist>Champion_Identified__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Terns__c</picklist>
+            <values>
+                <fullName>0-6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6-9 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9-12 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gained_Executive_Sponsorship__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reference_Type__c</picklist>
+            <values>
+                <fullName>Reference Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reference Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Reference Call</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Industry__c</picklist>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Hardware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil and Gas%2FEnergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Product_Expertise__c</picklist>
+            <values>
+                <fullName>Data center monitoring system</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Insight Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Rack servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Server blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Superdome servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant BL blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant ML</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant MicroServer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant SL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Qualified Options</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP-UX 11i</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linux on Integrity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Networking products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NonStop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenVMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ProLiant storage servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rack and Power infrastructure products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtualization Software ProLiant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows%C2%AE on Integrity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Timeframe__c</picklist>
+            <values>
+                <fullName>Further Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Next Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>This Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Benchmarks__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Customer_Stories__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Support__c</picklist>
+            <values>
+                <fullName>Customer Business Case %28Large%2C Complex%2C Strategic%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Facing - Methodology Guidance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal - Guidance on Support%2FProcess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review Tools and Content</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Where_are_you_in_the_process__c</picklist>
+            <values>
+                <fullName>Early%3A Oppty%2FBusiness Case Planning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finalizing ROI%2FTCO Spreadsheets Inputs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Introduced Customer to HP Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent Questionnaire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Competitive_War_Room</fullName>
+        <active>true</active>
+        <description>Competitive War Room</description>
+        <label>Competitive War Room</label>
+        <picklistValues>
+            <picklist>Champion_Identified__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Terns__c</picklist>
+            <values>
+                <fullName>0-6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6-9 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9-12 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gained_Executive_Sponsorship__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reference_Type__c</picklist>
+            <values>
+                <fullName>Reference Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reference Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Reference Call</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Industry__c</picklist>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Hardware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil and Gas%2FEnergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Product_Expertise__c</picklist>
+            <values>
+                <fullName>Data center monitoring system</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Insight Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Rack servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Server blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Superdome servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant BL blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant ML</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant MicroServer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant SL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Qualified Options</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP-UX 11i</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linux on Integrity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Networking products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NonStop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenVMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ProLiant storage servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rack and Power infrastructure products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtualization Software ProLiant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows%C2%AE on Integrity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Timeframe__c</picklist>
+            <values>
+                <fullName>Further Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Next Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>This Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Benchmarks__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Customer_Stories__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Support__c</picklist>
+            <values>
+                <fullName>Customer Business Case %28Large%2C Complex%2C Strategic%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Facing - Methodology Guidance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal - Guidance on Support%2FProcess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review Tools and Content</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Where_are_you_in_the_process__c</picklist>
+            <values>
+                <fullName>Early%3A Oppty%2FBusiness Case Planning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finalizing ROI%2FTCO Spreadsheets Inputs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Introduced Customer to HP Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent Questionnaire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Financing_Team_Request</fullName>
+        <active>true</active>
+        <description>Financing Team Request</description>
+        <label>Financing Team Request</label>
+        <picklistValues>
+            <picklist>Champion_Identified__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Terns__c</picklist>
+            <values>
+                <fullName>0-6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6-9 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9-12 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gained_Executive_Sponsorship__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reference_Type__c</picklist>
+            <values>
+                <fullName>Reference Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reference Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Reference Call</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Industry__c</picklist>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Hardware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil and Gas%2FEnergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Product_Expertise__c</picklist>
+            <values>
+                <fullName>Data center monitoring system</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Insight Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Rack servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Server blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Superdome servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant BL blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant ML</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant MicroServer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant SL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Qualified Options</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP-UX 11i</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linux on Integrity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Networking products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NonStop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenVMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ProLiant storage servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rack and Power infrastructure products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtualization Software ProLiant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows%C2%AE on Integrity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Timeframe__c</picklist>
+            <values>
+                <fullName>Further Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Next Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>This Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Benchmarks__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Customer_Stories__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Support__c</picklist>
+            <values>
+                <fullName>Customer Business Case %28Large%2C Complex%2C Strategic%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Facing - Methodology Guidance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal - Guidance on Support%2FProcess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review Tools and Content</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Where_are_you_in_the_process__c</picklist>
+            <values>
+                <fullName>Early%3A Oppty%2FBusiness Case Planning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finalizing ROI%2FTCO Spreadsheets Inputs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Introduced Customer to HP Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent Questionnaire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Reference_Request</fullName>
+        <active>true</active>
+        <description>Reference Request</description>
+        <label>Reference Request</label>
+        <picklistValues>
+            <picklist>Champion_Identified__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finance_Terns__c</picklist>
+            <values>
+                <fullName>0-6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6-9 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9-12 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gained_Executive_Sponsorship__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reference_Type__c</picklist>
+            <values>
+                <fullName>Reference Collateral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reference Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Reference Call</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Industry__c</picklist>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Hardware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hi Tech Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oil and Gas%2FEnergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Sector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Product_Expertise__c</picklist>
+            <values>
+                <fullName>Data center monitoring system</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Insight Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop BladeSystem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Rack servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Server blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Integrity Superdome servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP NonStop servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant BL blades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant DL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant ML</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant MicroServer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP ProLiant SL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Qualified Options</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP Storage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HP-UX 11i</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Linux on Integrity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Management Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Networking products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NonStop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OpenVMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ProLiant storage servers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rack and Power infrastructure products</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtualization Software ProLiant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows%C2%AE on Integrity</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Requested_Timeframe__c</picklist>
+            <values>
+                <fullName>Further Out</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Next Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>This Week</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tomorrow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Risk__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Benchmarks__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Shared_Customer_Stories__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Support__c</picklist>
+            <values>
+                <fullName>Customer Business Case %28Large%2C Complex%2C Strategic%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Facing - Methodology Guidance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal - Guidance on Support%2FProcess</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Review Tools and Content</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Where_are_you_in_the_process__c</picklist>
+            <values>
+                <fullName>Early%3A Oppty%2FBusiness Case Planning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finalizing ROI%2FTCO Spreadsheets Inputs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Introduced Customer to HP Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent Questionnaire</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

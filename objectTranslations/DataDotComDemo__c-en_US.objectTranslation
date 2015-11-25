@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DataDotComDemo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DataDotComDemo</value>
+    </caseValues>
+    <fields>
+        <label><!-- DemoAccount --></label>
+        <name>DemoAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- DemoContact --></label>
+        <name>DemoContact__c</name>
+    </fields>
+    <fields>
+        <label><!-- DemoLead --></label>
+        <name>DemoLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- ResetDataDate --></label>
+        <name>ResetDataDate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

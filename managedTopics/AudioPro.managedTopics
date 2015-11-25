@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Featured:AudioPro Lounge</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>AudioPro Lounge</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription>This is a great topic to discuss any boardroom audio/visual needs!</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Conferencing</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Conferencing</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Desktop Audio</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Desktop Audio</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Hotspot Services</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Hotspot Services</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Multiroom Audio</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Multiroom Audio</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Featured:Projectors</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Projectors</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Audio Conferencing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Audio Conferencing</name>
+        <parentName>Conferencing</parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:AudioPro Lounge</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>AudioPro Lounge</name>
+        <parentName></parentName>
+        <position>5</position>
+        <topicDescription>This is a great topic to discuss any boardroom audio/visual needs!</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Conferencing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Conferencing</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Desktop Audio</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Desktop Audio</name>
+        <parentName></parentName>
+        <position>4</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Earbuds</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Earbuds</name>
+        <parentName>Headphones</parentName>
+        <position>0</position>
+        <topicDescription>This is used as a navigational sub-topic for Headphones.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Headphones</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Headphones</name>
+        <parentName></parentName>
+        <position>8</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:HiFi Systems</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>HiFi Systems</name>
+        <parentName></parentName>
+        <position>7</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Home Theater</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Home Theater</name>
+        <parentName></parentName>
+        <position>9</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Hotspot Services</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Hotspot Services</name>
+        <parentName></parentName>
+        <position>3</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Multiroom Audio</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Multiroom Audio</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Office</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Office</name>
+        <parentName>Projectors</parentName>
+        <position>0</position>
+        <topicDescription>This is used as a sub-topic for Conferencing.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Over-Ear &amp; On-Ear</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Over-Ear &amp; On-Ear</name>
+        <parentName>Headphones</parentName>
+        <position>1</position>
+        <topicDescription>This is used as a sub-topic for Headphones.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Portable</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Portable</name>
+        <parentName>Projectors</parentName>
+        <position>1</position>
+        <topicDescription>This is used as a sub-topic for Conferencing.</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Projectors</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Projectors</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Speakers</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Speakers</name>
+        <parentName></parentName>
+        <position>6</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Video Conferencing</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Video Conferencing</name>
+        <parentName>Conferencing</parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Navigational:Wireless</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Wireless</name>
+        <parentName>Headphones</parentName>
+        <position>2</position>
+        <topicDescription>This is used as a sub-topic for Headphones.</topicDescription>
+    </managedTopic>
+</ManagedTopics>

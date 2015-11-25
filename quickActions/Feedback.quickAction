@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>give work feedback</description>
+    <height>400</height>
+    <icon>feedbackIcon</icon>
+    <label>Give Feedback</label>
+    <page>WorkFeedbackAction</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

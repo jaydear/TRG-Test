@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Markup --></label>
+        <name>salesedgedemo__Markup__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordId --></label>
+        <name>salesedgedemo__RecordId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>salesedgedemo__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Templated Email Id --></label>
+        <name>salesedgedemo__Templated_Email_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text --></label>
+        <name>salesedgedemo__Text__c</name>
+    </fields>
+</CustomObjectTranslation>

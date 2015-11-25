@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Metric$Name</field>
+    </columns>
+    <columns>
+        <field>Metric$Status</field>
+    </columns>
+    <columns>
+        <field>Metric$Progress</field>
+    </columns>
+    <columns>
+        <field>Metric$LastComment</field>
+    </columns>
+    <columns>
+        <field>Metric$DueDate</field>
+    </columns>
+    <columns>
+        <field>Metric$Goal</field>
+    </columns>
+    <description>Work.com: This sample report answers questions such as:
+-which metrics are behind or critical?</description>
+    <filter>
+        <criteriaItems>
+            <column>Metric$Status</column>
+            <operator>equals</operator>
+            <value>3,4</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Metric$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Metrics Flagged as Behind OR Critical</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Metrics_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Metric$DueDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

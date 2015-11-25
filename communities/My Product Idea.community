@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>My Salesforce Idea is a forum where salesforce.com customers can suggest new product concepts, promote favorite enhancements, interact with product managers and other customers, and preview what we are planning to deliver. In salesforce.com’s ongoing efforts to continually create a dialog with the community, My Salesforce Idea provides an open and direct channel of communication for customers.</description>
+    <enableChatterAnswers>false</enableChatterAnswers>
+    <reputationLevels>
+        <chatterAnswersReputationLevels>
+            <name>Newbie</name>
+            <value>0</value>
+        </chatterAnswersReputationLevels>
+        <chatterAnswersReputationLevels>
+            <name>Smartie</name>
+            <value>500</value>
+        </chatterAnswersReputationLevels>
+        <chatterAnswersReputationLevels>
+            <name>Pro</name>
+            <value>2000</value>
+        </chatterAnswersReputationLevels>
+        <chatterAnswersReputationLevels>
+            <name>All Star</name>
+            <value>5000</value>
+        </chatterAnswersReputationLevels>
+    </reputationLevels>
+    <showInPortal>true</showInPortal>
+</Community>

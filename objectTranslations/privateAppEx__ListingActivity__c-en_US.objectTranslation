@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The type of asset that was viewed on the listing. --></help>
+        <label><!-- Asset Type --></label>
+        <name>privateAppEx__AssetType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates if the same type of activity was taken by the same user on the same listing within the last 180 days. --></help>
+        <label><!-- Duplicate --></label>
+        <name>privateAppEx__Duplicate__c</name>
+    </fields>
+    <fields>
+        <help><!-- The listing asset that was accessed if applicable. --></help>
+        <label><!-- Listing Asset --></label>
+        <name>privateAppEx__ListingAsset__c</name>
+        <relationshipLabel><!-- Listing Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The listing on which the activity occurred. --></help>
+        <label><!-- Listing --></label>
+        <name>privateAppEx__Listing__c</name>
+        <relationshipLabel><!-- Listing Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Represents the status of the user&apos;s request to access a listing. --></help>
+        <label><!-- Status --></label>
+        <name>privateAppEx__Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- AccessRequest --></label>
+        <name>AccessRequest</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AssetView --></label>
+        <name>AssetView</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Install --></label>
+        <name>Install</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PageView --></label>
+        <name>PageView</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RequestInstall --></label>
+        <name>RequestInstall</name>
+    </recordTypes>
+</CustomObjectTranslation>

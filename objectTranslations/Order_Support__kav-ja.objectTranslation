@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>注文サポート</value>
+    </caseValues>
+    <fields>
+        <label>追加リンク</label>
+        <name>Additional_Links__c</name>
+    </fields>
+    <fields>
+        <label>回答</label>
+        <name>Answer__c</name>
+    </fields>
+    <fields>
+        <label>チャットの回答</label>
+        <name>Chat_Answer__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Comments --></label>
+        <name>Internal_Comments__c</name>
+    </fields>
+    <nameFieldLabel><!-- Order Support Name --></nameFieldLabel>
+</CustomObjectTranslation>

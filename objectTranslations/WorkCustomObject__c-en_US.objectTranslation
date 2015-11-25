@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Perform Analytics Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Perform Analytics Setting</value>
+    </caseValues>
+    <fields>
+        <help><!-- WorkFeedback.needConverting__c = LastModifiedDate &gt; (FeedBackLastConvertDate__c + &lt;FeedbackBufferSec&gt;). Default is 30 seconds. --></help>
+        <label><!-- Feedback Buffer Sec --></label>
+        <name>FeedbackBufferSec__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

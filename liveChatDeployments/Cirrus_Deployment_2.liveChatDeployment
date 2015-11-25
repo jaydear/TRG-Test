@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <displayQueuePosition>false</displayQueuePosition>
+    <enablePrechatApi>true</enablePrechatApi>
+    <enableTranscriptSave>false</enableTranscriptSave>
+    <label>Chat from Tabbed Community</label>
+    <site>PKB3</site>
+    <windowTitle>Chat from Community</windowTitle>
+</LiveChatDeployment>

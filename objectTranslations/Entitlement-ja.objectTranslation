@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Description of service entitlement. --></help>
+        <label>説明</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>エンタイトルメントコンボ</label>
+        <name>Entitlement_Combo__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label>最優先</label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Phone Support</masterLabel>
+            <translation>電話サポート</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium Service</masterLabel>
+            <translation>プレミアサービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Support</masterLabel>
+            <translation>ウェブサポート</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>
